@@ -8,19 +8,21 @@
 # 						A line with - begins with two spaces
 # 						A line without has four spaces at the beginning, and NO tabs! (Yaml wants that, not me!)
 menu:
-  - title: 	"Über mich"
+  - title: 	"Welcome"
     href: 	"about"
-  - title: 	"Was ich kann"
-    href: 	"abilities"
-  - title: 	"Startpunkte"
-    href:   "zeropoints"
-  - title: 	"Menschen"
+  - title: 	"Offers"
+    href: 	"pricing"
+  - title: 	"Work"
+    href:   "abilities"
+  - title: 	"Gallery"
+    href: 	"startingpoints"
+  - title: 	"Team"
     href: 	"peers"
 
-logoText: "大學 Invisible University"
+logoText: "MiMa"
 # logoImage: 	"img/logo.png"
-login: "Login"
-logout: "Logout"
+#login: "Login"
+#logout: "Logout"
 
 
 # Additional Parameters

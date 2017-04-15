@@ -5,7 +5,7 @@ overlay: true
 people:
   - image: "img/peers/maarja.jpg"
     name: "Maarja Urb"
-    position: "Foto- und Webkünstlerin"
+    position: "Foto- und Webkunst"
     social:
     - icon:   "fa-instagram"
       link:   "https://www.instagram.com/maarja_urb/?hl=en"
@@ -13,23 +13,9 @@ people:
       link:   "http://www.m-urb.de"
     - icon:   "fa-facebook"
       link:   "https://www.facebook.com/profile.php?id=100006824838702"
-  - image: "img/peers/lukas.jpg"
-    name: "Lukas König"
-    position: "Schauspieler und Regisseur"
-    social:
-    - icon:   "fa-cloud"
-      link:   "http://www.spielsinn.net/"
-  - image: "img/peers/iris.jpg"
-    name: "Iris Johansson"
-    position: "Kommunikations-Künstlerin"
-    social:
-    - icon:   "fa-facebook"
-      link:   "https://www.facebook.com/johansson.iris"
-    - icon:   "fa-cloud"
-      link:   "http://irisjohansson.com/"
   - image: "img/peers/michael.jpg"
     name: "Michael Schmidt"
-    position: "Programmier- und Ideenforscher"
+    position: "Programmierung"
     social:
     - icon:   "fa-facebook"
       link:   "https://www.facebook.com/modermalin"
@@ -48,4 +34,3 @@ people:
 # photoTextLeft:          40%
 # photoTextTop:           85%
 # photoIconSize:          16
-
