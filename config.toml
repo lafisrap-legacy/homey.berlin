@@ -3,9 +3,9 @@
 # Config File for INVISIBLE UNIVERSITY flavour of VITALITY bootstrap theme
 #
 #--------------------------------------------------------------
-BaseURL = "https://invisible-university.github.io/template/"
+BaseURL = "https://mimaberlin.github.io/mima.ee/"
 LanguageCode = "de-DE"
-Title = "大學 Invisible University - Template"
+Title = "MiMa - Very Personal Websites"
 Theme = "hugo-university-theme"
 publishDir = "docs"
 
@@ -25,12 +25,12 @@ publishDir = "docs"
 	Style = "modern"
 
 	# !Important: Theme colors can be selected in static/less/vitality.less
-	
-	Name = "Invisible University - Template"
-	Description = "This is just a template. Fork it!"
+
+	Name = "MiMa"
+	Description = "Very Personal Websites"
 	Favicon = "favicon.ico"
 	Author = "Lafisrap (Michael Schmidt)"
-	Brand = "大學 Invisible University"
+	Brand = "MiMa --- Tallin - Berlin"
 
 	# List of Google fonts, for use in less files.
 	#
