@@ -77,14 +77,14 @@ Five places to change some meta information
 
 ### STEP 4 四 A new Title, a new Background Image
 
-In your editor open the `data` folder, than the file `hero.yaml`
+In your editor open the `data` folder in your project folder, than the file `hero.yaml`
 
 First change the title and the subtitle.
 
 	Line 8: title: "[Your name]"
 	Line 9: subtitle: "[What are you offering?]"
 
-Save your file. 
+Save your file.
 Then copy a new image file named `bg-header.jpg` into the folder `static/img/backgrounds`.
 Preferably wider as 1600 pixel and not larger then 500 kbyte.
 That's it.
@@ -94,11 +94,10 @@ That's it.
 On the command line type
 
 	$ ./publish "First commit"
-		(windows: publish "First commit")
+		(windows: ./publish "First commit")
 
 When asked type in your GitHub name and password, and a minute later, your website is ready. Open it.
 
 GRATULATION! 感 激 不 尽! In this way you can change, add and take away a lot of things on your website. Just edit the `*.yaml` files in the `data` folder and then execute `./publish` on the command line.
 
 Where you can go from here, you find in the [Wiki](https://github.com/invisible-university/template/wiki).
-

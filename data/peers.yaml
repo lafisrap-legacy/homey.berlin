@@ -17,8 +17,12 @@ people:
     name: "Michael Schmidt"
     position: "Programmierung"
     social:
-    - icon:   "fa-facebook"
-      link:   "https://www.facebook.com/modermalin"
+    - icon:   "fa-github"
+      link:   "https://www.github.com/lafisrap"
+    - icon:   "fa-cloud"
+      link:   "https://michaelschmidt.berlin"
+    - icon:   "fa-instagram"
+      link:   "https://www.instagram.com/lafisrap"
 
 # backgroundColor:        white
 # titleSize:              50
