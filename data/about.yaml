@@ -7,7 +7,7 @@
 backgroundImage: img/backgrounds/dahabshore.jpg
 image: img/me.jpg
 imagePos: both
-imageSize: 250
+imageSize: 200
 text: >
     Hinterlasse einen ersten Eindruck von Dir.
     <br>Du bist nicht der Abdruck,
@@ -22,9 +22,9 @@ ref: abilities
 
 # Additional Parameters
 
-# textSize:     		36
-# textPadding:			60
-# textColor: 				"yellow"
+textSize:     		20
+textPadding:			30
+textColor: 				"yellow"
 # textColorPrimary: "#700D00"
 # buttonSize:    		18
 # buttonColor: 			"white"

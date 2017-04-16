@@ -1,145 +1,188 @@
-title: Startpunkte
-subtitle: Du willst etwas Neues beginnen? Hier sind einige Startpunkte, die ich für mich gefunden habe.
+title: Image Gallery
+subtitle: "Basic: Choose up to 5 photos, Plus: Choose up to 10, Premium: Any number"
 
 filters: [
-  University,
-  Programmieren,
-  Ideen,
+  Nature,
+  Flowers,
+  Animals,
+  Trees,
+  Water,
+  Sky,
+  Spring,
+  Summer,
+  Autumn,
+  Winter,
+  Drops,
+  Sunlight,
+  Inhouse,
+  Objects,
+  Morning,
+  Evening
 ]
 all: Alle
 
 elements:
-  - image: img/backgrounds/startingpoints1.jpg
-    captionTitle: A Template for the first steps
-    captionCategory: Invisible University
+  - image: img/gallery/bird.jpg
+    captionTitle: Bird
+    captionCategory: ...
     filters:
-      - University
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
-
-    # Backgorund color and text color can be changed for each element, but also for all together further below with the global attributes
+      - Nature
+      - Animals
+      - Spring
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/startingpoints/sp_freecodecamp.png
-    captionTitle: FreeCodeCamp
-    captionCategory: Programmieren
+  - image: img/gallery/drops.jpg
+    captionTitle: Drops
+    captionCategory: ...
     filters:
-      - Programmieren
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
-
-    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
-    # panelColor:             white
-
-  - image: img/startingpoints/sp_khanacademy.png
-    captionTitle: Khan-Academy
-    captionCategory: Programmieren
-    filters:
-      - Programmieren
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
+      - Nature
+      - Autumn
+      - Water
+      - Drops
 
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/startingpoints/sp_spielplatz.png
-    captionTitle: Der Computer-Spielplatz
-    captionCategory: Programmieren
+  - image: img/gallery/drygrass.jpg
+    captionTitle: Dry Grass
+    captionCategory: ...
     filters:
-      - Programmieren
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
+      - Nature
+      - Autumn
+      - Flowers
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/flies.jpg
+    captionTitle: Flies
+    captionCategory: ...
+    filters:
+      - Nature
+      - Autumn
+      - Sunlight
+      - Evening
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/forest.jpg
+    captionTitle: Forest
+    captionCategory: ...
+    filters:
+      - Nature
+      - Trees
+      - Sunlight
+      - Evening
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/globe.jpg
+    captionTitle: Globe
+    captionCategory: ...
+    filters:
+      - Inhouse
+      - Objects
 
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/startingpoints/sp_codecademy.png
-    captionTitle: Codecademy
-    captionCategory: Programmieren
+  - image: img/gallery/ice.jpg
+    captionTitle: Ice
+    captionCategory: ...
     filters:
-      - Programmieren
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
+      - Nature
+      - Water
+      - Winter
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/morning.jpg
+    captionTitle: Morning
+    captionCategory: ...
+    filters:
+      - Nature
+      - Trees
+      - Autumn
+      - Morning
 
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/backgrounds/startingpoints4.jpg
-    captionTitle: Original Play - Ursprüngliches Spiel
-    captionCategory: Kommunikation
+  - image: img/gallery/pastel.jpg
+    captionTitle: Pastel
+    captionCategory: ...
     filters:
-      - Kommunikation
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
-
+      - Nature
+      - Water
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/backgrounds/startingpoints5.jpg
-    captionTitle: 9 Grundgedanken
-    captionCategory: Ideen
+  - image: img/gallery/pink.jpg
+    captionTitle: Pink
+    captionCategory: ...
     filters:
-      - Ideen
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
-
+      - Nature
+      - Flowers
+      - Spring
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/backgrounds/startingpoints6.jpg
-    captionTitle: Primärwoche in Dahab
-    captionCategory: Kommunikation
+  - image: img/gallery/rain.jpg
+    captionTitle: Rain
+    captionCategory: ...
     filters:
-      - Kommunikation
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
-
+      - Nature
+      - Water
+      - Drops
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/backgrounds/startingpoints7.jpg
-    captionTitle: 95 Gedankenfehler der westlichen Kultur
-    captionCategory: Ideen
+  - image: img/gallery/rose.jpg
+    captionTitle: Rose
+    captionCategory: ...
     filters:
-      - Ideen
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
-
+      - Nature
+      - Flowers
+      - Summer
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/backgrounds/startingpoints8.jpg
-    captionTitle: 2064 - Die Geschichte der Cypherpunks
-    captionCategory: Kommunikation
+  - image: img/gallery/sea.jpg
+    captionTitle: Sea
+    captionCategory: ...
     filters:
-      - Ideen
-      - Kommunikation
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
-
+      - Nature
+      - Water
+      - Sky
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
-  - image: img/backgrounds/startingpoints9.jpg
-    captionTitle: 2064 - Das Spiel
-    captionCategory: Ideen
+  - image: img/gallery/sky.jpg
+    captionTitle: Sky
+    captionCategory: ...
     filters:
-      - Ideen
-    content: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed non expedita officia quidem fugiat reprehenderit, dignissimos dolorem magnam alias optio culpa a neque eius laudantium ipsum, quae adipisci doloribus!
-    video: video/image_to_playground.mp4
+      - Nature
+      - Water
+      - Sky
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
 
+  - image: img/gallery/tree.jpg
+    captionTitle: Tree
+    captionCategory: ...
+    filters:
+      - Nature
+      - Trees
+      - Morning
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/wave.jpg
+    captionTitle: Wave
+    captionCategory: ...
+    filters:
+      - Nature
+      - Water
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 

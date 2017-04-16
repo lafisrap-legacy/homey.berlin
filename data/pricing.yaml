@@ -1,0 +1,43 @@
+title: Our Offers
+image: img/gallery/sky.jpg
+description: This is a text ...
+currency: €
+featured: true
+table:
+  - title: Basic
+    price: 400
+    value: 
+    list:
+      - Artful website, based on your text and images
+      - Choose any free StartBootstrap theme
+      - Reorganisation of sections
+      - Choose up to 5 photos from gallery
+      - Edit website yourself
+      - Free website hosting
+      - "optional: use your own web address"
+    action: Sign up
+  - title: Plus
+    price: 700
+    value: 
+    list:
+      - Artful website, based on your text, images, video and audio
+      - Choose free or premium StartBootstrap theme
+      - Reorganisation of sections
+      - Choose up to 10 photos from gallery
+      - Edit website yourself
+      - Free website hosting
+      - "optional: use your own web address"
+    action: Sign up
+  - title: Premium
+    price: 1000
+    value: 
+    list:
+      - Artful website, based on your text, images, video and audio
+      - Choose free or premium StartBootstrap theme
+      - Reorganisation of sections
+      - Adaption of sections to your needs
+      - Choose any number of photos from gallery
+      - Hugo website editing
+      - Free website hosting
+      - "optional: use your own web address"
+    action: Sign up
