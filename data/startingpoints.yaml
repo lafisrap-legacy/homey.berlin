@@ -4,7 +4,7 @@ subtitle: "Basic: Choose up to 5 photos, Plus: Choose up to 10, Premium: Any num
 filters:
   - name: "Nature"
     topics: [
-      Nature,
+      Nature,  # First entry here is whole topic, shown as "all"
       Flowers,
       Animals,
       Trees,
