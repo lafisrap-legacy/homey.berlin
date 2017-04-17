@@ -3,7 +3,7 @@
 
 <style>
 {{ if .textSize }}
-	aside.cta-quote span.quote {
+	aside.cta-quote div.quote, aside.cta-quote div.quote p {
 		font-size: {{ .textSize }}px !important;
 		line-height: {{ mul .textSize 1.375 }}px !important;
   }
@@ -16,13 +16,13 @@
 {{ end }}
 
 {{ if .textColor }}
-	aside.cta-quote span.quote {
+	aside.cta-quote div.quote {
 		color: {{ .textColor }} !important;
   }
 {{ end }}
 
 {{ if .textColorPrimary }}
-	aside.cta-quote span.quote .text-primary {
+	aside.cta-quote div.quote .text-primary {
 		color: {{ .textColorPrimary }} !important;
   }
 {{ end }}
@@ -86,7 +86,7 @@
 	    			      </div>
 	                <div class="col-xs-12 col-md-6 quote">{{ .text | markdownify }}</div>
 	              	<div class="col-xs-12 col-md-3" style="height: {{ .imageSize }}px">
-	              		<img src="{{ .image }}" class="img-responsive" height="{{ .imageSize }}" width="{{ .imageSize }}">
+	              		<img src="{{ .image2 }}" class="img-responsive" height="{{ .imageSize }}" width="{{ .imageSize }}">
 	    			      </div>
 	    			      {{ else }}
 	                <div class="col-xs-12 col-md-8 quote">{{ .text | markdownify }}</div>
