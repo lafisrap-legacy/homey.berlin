@@ -186,6 +186,16 @@ elements:
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
+  - image: img/gallery/lake.jpg
+    captionTitle: Lake
+    captionCategory: ...
+    filters:
+      - Nature
+      - Water
+      - Evening
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
 
 # backgroundColor:        white
 # titleSize:              50
