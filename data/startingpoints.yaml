@@ -1,24 +1,33 @@
 title: Image Gallery
 subtitle: "Basic: Choose up to 5 photos, Plus: Choose up to 10, Premium: Any number"
 
-filters: [
-  Nature,
-  Flowers,
-  Animals,
-  Trees,
-  Water,
-  Sky,
-  Spring,
-  Summer,
-  Autumn,
-  Winter,
-  Drops,
-  Sunlight,
-  Inhouse,
-  Objects,
-  Morning,
-  Evening
-]
+filters:
+  - name: "Nature"
+    topics: [
+      Nature,
+      Flowers,
+      Animals,
+      Trees,
+      Water,
+      Sky,
+      Drops,
+      Sunlight
+    ]
+  - name: "Time"
+    topics: [
+      Time,
+      Spring,
+      Summer,
+      Autumn,
+      Winter,
+      Morning,
+      Evening
+    ]
+  - name: "In the House"
+    topics: [
+      Inhouse,
+      Objects
+    ]
 all: Alle
 
 elements:
@@ -62,6 +71,7 @@ elements:
       - Autumn
       - Sunlight
       - Evening
+      - Time
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
@@ -73,6 +83,7 @@ elements:
       - Trees
       - Sunlight
       - Evening
+      - Time
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
@@ -104,6 +115,7 @@ elements:
       - Trees
       - Autumn
       - Morning
+      - Time
 
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
@@ -144,6 +156,7 @@ elements:
       - Nature
       - Flowers
       - Summer
+      - Time
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
@@ -174,6 +187,7 @@ elements:
       - Nature
       - Trees
       - Morning
+      - Time
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 

@@ -6,38 +6,49 @@ featured: true
 table:
   - title: Basic
     price: 400
-    value: 
+    value:
     list:
-      - Artful website, based on your text and images
+      - Artful & responsive website, based on your text and images
       - Choose any free StartBootstrap theme
       - Reorganisation of sections
       - Choose up to 5 photos from gallery
       - Edit website yourself
-      - Free website hosting
+      - Free website hosting, with backup
       - "optional: use your own web address"
     action: Sign up
   - title: Plus
-    price: 700
-    value: 
+    price: 600
+    value:
     list:
-      - Artful website, based on your text, images, video and audio
+      - Artful & responsive website, based on your text, images, video and audio
       - Choose free or premium StartBootstrap theme
       - Reorganisation of sections
       - Choose up to 10 photos from gallery
       - Edit website yourself
-      - Free website hosting
+      - Free website hosting, with backup
       - "optional: use your own web address"
     action: Sign up
   - title: Premium
-    price: 1000
-    value: 
+    price: 900
+    value:
     list:
       - Artful website, based on your text, images, video and audio
-      - Choose free or premium StartBootstrap theme
+      - Choose from 6 flavours of Vitality StartBootstrap theme
       - Reorganisation of sections
       - Adaption of sections to your needs
       - Choose any number of photos from gallery
       - Hugo website editing
-      - Free website hosting
+      - Free website hosting, with backup
       - "optional: use your own web address"
+    action: Sign up
+  - title: Very Personal
+    price: Call us
+    value:
+    list:
+      - Based on BASIC, PLUS or PREMIUM
+      - Personal photo session and filming
+      - Programming addons/changes to website
+      - Introduction into website programming
+      - Drawings, Logo
+      - Complete Service
     action: Sign up

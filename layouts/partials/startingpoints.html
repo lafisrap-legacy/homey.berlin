@@ -173,17 +173,30 @@
         <p>{{ .subtitle | markdownify }}</p>
         <div class="row content-row">
             <div class="col-lg-12">
-                <div class="portfolio-filter">
-                    <ul id="filters" class="clearfix">
-                        <li>
-                            <span class="filter active" data-filter="all">{{ .all }}</span>
-                        </li>
-                        {{ range $index, $element := .filters }}
-                        <li>
-                            <span class="filter" data-filter=".{{ . | urlize }}">{{ . }}</span>
-                        </li>
-                        {{ end }}
-                    </ul>
+                <ul id="filters" class="nav nav-tabs">
+                {{ $all := .all }}
+                {{ range $i, $e := .filters }}
+                  <li{{ if eq $i 0 }} class="active"{{ end }}><a data-toggle="tab" href="#filters-{{ .name | urlize }}">{{ .name }}</a></li>
+                {{ end }}
+                </ul>
+                <div class="tab-content">
+                {{ range $i, $e := .filters }}
+                    <div id="filters-{{ .name | urlize }}" class="tab-pane fade{{ if eq $i 0 }} in active{{ end }}">
+                        <div class="portfolio-filter">
+                            <ul id="filters" class="clearfix">
+                                {{ range $j, $el := .topics }}
+                                <li>
+                                    {{ if eq $j 0 }}
+                                    <span class="filter active" data-filter=".{{ . | urlize }}">{{ $all }}</span>
+                                    {{ else }}
+                                    <span class="filter" data-filter=".{{ . | urlize }}">{{ . }}</span>
+                                    {{ end }}
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                {{ end }}
                 </div>
             </div>
         </div>
