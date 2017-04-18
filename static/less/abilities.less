@@ -136,10 +136,15 @@
 }
 
 .portfolio-modal {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+
 	.modal-backdrop {
 		display: none;
 	}
-	.background-cover;
+		
 	.modal-content {
 		color: white;
 		background: transparent;
@@ -171,7 +176,7 @@
       right: 25px;
       cursor: pointer;
       &:hover {
-          opacity: 0.3;
+          opacity: 0.8;
       }
       .lr {
           height:75px;
@@ -196,6 +201,22 @@
               z-index:1052;
           }            
       }        
+    }
+
+    .checkbox-modal {
+    	position: absolute;
+    	bottom: 75px;
+    	right: 75px;
+
+    	input[type="checkbox"] {
+	    	border: 3px solid red;
+	    	transform: scale(6,6);
+				background-color: rgba(0,0,0,0.1);
+				color: red;
+				border: none;
+	    	font-size: 75px;
+	    	color: darkgreen;
+    	}
     }
 
     h2 {

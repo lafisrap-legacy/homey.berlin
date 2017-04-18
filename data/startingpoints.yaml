@@ -32,6 +32,7 @@ all: Alle
 
 elements:
   - image: img/gallery/bird.jpg
+    imageId: 1001
     captionTitle: Bird
     captionCategory: ...
     filters:
@@ -42,6 +43,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/drops.jpg
+    imageId: 1002
     captionTitle: Drops
     captionCategory: ...
     filters:
@@ -54,6 +56,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/drygrass.jpg
+    imageId: 1003
     captionTitle: Dry Grass
     captionCategory: ...
     filters:
@@ -64,6 +67,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/flies.jpg
+    imageId: 1004
     captionTitle: Flies
     captionCategory: ...
     filters:
@@ -76,6 +80,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/forest.jpg
+    imageId: 1005
     captionTitle: Forest
     captionCategory: ...
     filters:
@@ -88,6 +93,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/globe.jpg
+    imageId: 1006
     captionTitle: Globe
     captionCategory: ...
     filters:
@@ -98,6 +104,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/ice.jpg
+    imageId: 1007
     captionTitle: Ice
     captionCategory: ...
     filters:
@@ -108,6 +115,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/morning.jpg
+    imageId: 1008
     captionTitle: Morning
     captionCategory: ...
     filters:
@@ -121,6 +129,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/pastel.jpg
+    imageId: 1009
     captionTitle: Pastel
     captionCategory: ...
     filters:
@@ -130,6 +139,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/pink.jpg
+    imageId: 1010
     captionTitle: Pink
     captionCategory: ...
     filters:
@@ -140,6 +150,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/rain.jpg
+    imageId: 1011
     captionTitle: Rain
     captionCategory: ...
     filters:
@@ -150,6 +161,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/rose.jpg
+    imageId: 1012
     captionTitle: Rose
     captionCategory: ...
     filters:
@@ -161,6 +173,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/sea.jpg
+    imageId: 1013
     captionTitle: Sea
     captionCategory: ...
     filters:
@@ -171,6 +184,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/sky.jpg
+    imageId: 1014
     captionTitle: Sky
     captionCategory: ...
     filters:
@@ -181,6 +195,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/tree.jpg
+    imageId: 1015
     captionTitle: Tree
     captionCategory: ...
     filters:
@@ -192,6 +207,7 @@ elements:
     # panelColor:             white
 
   - image: img/gallery/wave.jpg
+    imageId: 1016
     captionTitle: Wave
     captionCategory: ...
     filters:

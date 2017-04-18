@@ -240,6 +240,7 @@ hr.colored {
 }
 .navbar-default .navbar-name,
 .navbar-inverse .navbar-name {
+  clear: both;
   text-align: center;
 }
 .navbar-default .navbar-logout,
@@ -717,10 +718,10 @@ aside.cta-quote .panel {
   padding: 15px;
 }
 .portfolio-modal {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
 }
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -757,7 +758,7 @@ aside.cta-quote .panel {
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 .portfolio-modal .close-modal .lr {
   height: 75px;
@@ -781,6 +782,20 @@ aside.cta-quote .panel {
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
   z-index: 1052;
+}
+.portfolio-modal .checkbox-modal {
+  position: absolute;
+  bottom: 75px;
+  right: 75px;
+}
+.portfolio-modal .checkbox-modal input[type="checkbox"] {
+  border: 3px solid red;
+  transform: scale(6, 6);
+  background-color: rgba(0, 0, 0, 0.1);
+  color: red;
+  border: none;
+  font-size: 75px;
+  color: darkgreen;
 }
 .portfolio-modal h2 {
   font-family: "IM Fell English SC";
@@ -1054,6 +1069,20 @@ aside.cta-quote .panel {
   color: white;
   border-color: #BA4C3D;
 }
+.portfolio-wrapper .checkbox-modal {
+  position: absolute;
+  bottom: 5px;
+  right: 25px;
+}
+#portfoliolist input[type="checkbox"] {
+  border: 3px solid red;
+  transform: scale(3, 3);
+  background-color: rgba(0, 0, 0, 0.1);
+  color: red;
+  border: none;
+  font-size: 75px;
+  color: darkgreen;
+}
 #portfoliolist .mix {
   width: 31%;
   margin: 1%;
@@ -1113,6 +1142,9 @@ aside.cta-quote .panel {
 }
 #portfoliolist .mix:hover .portfolio-wrapper .caption {
   bottom: 0px;
+}
+#portfoliolist .selected {
+  box-shadow: 11px 11px 8px 0px #9897a8;
 }
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
@@ -1536,4 +1568,9 @@ body.vintage .testimonials .owl-controls .owl-next {
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #dbcaf9;
+}
+.thumbnails .image {
+  width: 120px;
+  float: left;
+  margin: 5px;
 }

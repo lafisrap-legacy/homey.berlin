@@ -205,7 +205,7 @@
                 <div id="portfoliolist">
                     <!-- NOTE: You can add more items to the grid, or remove items you don't need! -->
                     {{ range $i, $e := .elements }}
-                    <div class="mix {{ range .filters }}{{ . | urlize }} {{ end }}" id="portfolio{{ $i }}" href="#" title="Client Name">
+                    <div class="mix {{ range .filters }}{{ . | urlize }} {{ end }}" id="portfolio{{ $i }}" href="#" title="Client Name" checkbox="{{ $i }}">
                         <div class="portfolio-wrapper">
                             <a href="#gridModal{{ $i }}" data-toggle="modal">
                                 <img src="{{ .image }}" alt="">
@@ -213,6 +213,9 @@
                                     <div class="caption-text">
                                         <a class="text-title">{{ .captionTitle }}</a>
                                         <span class="text-category">{{ .captionCategory }}</span>
+                                        <div class="checkbox checkbox-modal">
+                                          <label><input type="checkbox" value="" checkbox="{{ $i }}" img="{{ .image }}" img-id="{{ .imageId }}"></label>
+                                        </div>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
@@ -231,6 +234,16 @@
 <div class="portfolio-modal modal fade" id="gridModal{{ $i }}" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('{{ .image }}')">
     <div class="modal-content" data-dismiss="modal">
     </div>
+    <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+            <div class="rl">
+            </div>
+        </div>
+    </div>
+    <div class="checkbox checkbox-modal">
+      <label><input type="checkbox" value="" checkbox="{{ $i }}"></label>
+    </div>
+
 </div>
 {{ end }}
 {{ end }}

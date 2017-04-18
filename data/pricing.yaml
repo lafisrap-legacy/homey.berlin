@@ -5,7 +5,7 @@ currency: €
 featured: true
 table:
   - title: Basic
-    price: 400
+    price: 500
     value:
     list:
       - Artful & responsive website, based on your text and images
@@ -15,9 +15,9 @@ table:
       - Edit website yourself
       - Free website hosting, with backup
       - "optional: use your own web address"
-    action: Sign up
-  - title: Plus
-    price: 600
+    action: Order
+  - title: Premium
+    price: 800
     value:
     list:
       - Artful & responsive website, based on your text, images, video and audio
@@ -27,28 +27,16 @@ table:
       - Edit website yourself
       - Free website hosting, with backup
       - "optional: use your own web address"
-    action: Sign up
-  - title: Premium
-    price: 900
-    value:
-    list:
-      - Artful website, based on your text, images, video and audio
-      - Choose from 6 flavours of Vitality StartBootstrap theme
-      - Reorganisation of sections
-      - Adaption of sections to your needs
-      - Choose any number of photos from gallery
-      - Hugo website editing
-      - Free website hosting, with backup
-      - "optional: use your own web address"
-    action: Sign up
+    action: Order
   - title: Very Personal
-    price: Call us
+    price: call us
     value:
     list:
-      - Based on BASIC, PLUS or PREMIUM
-      - Personal photo session and filming
-      - Programming addons/changes to website
-      - Introduction into website programming
-      - Drawings, Logo
-      - Complete Service
-    action: Sign up
+      - Based on BASIC or PREMIUM offer
+      - Personal photo session and filming (make it personal)
+      - Hugo Static Site Generator (manage lots of images, text and other media)
+      - Programming addons/changes to website (whatever you want)
+      - Drawings, art work, get a logo
+      - Coaching (if you have questions ...)
+      - Introduction into website programming (take the steering wheel!)
+    action: Order
