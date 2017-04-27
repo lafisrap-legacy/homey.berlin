@@ -5,21 +5,24 @@
 # @fontTitle: 	Font of title
 
 backgroundImage: img/backgrounds/dahabshore.jpg
-image: img/me.jpg
-image2: img/me.jpg
+image: img/maarja.jpg
+image2: img/michael.jpg
 imagePos: both
 imageSize: 200
 text: >
-    Hinterlasse einen ersten Eindruck von Dir.
-    <br>Du bist nicht der Abdruck,
+    We offer websites that make it easy for everyone to present her|his ideas, or oneself.
 
 
-    Du bist nicht der Fuß,
+    We enjoy it when people show what they can offer to others,
+    and we believe that everyone can handle his|her own website, learn how to change it ... with a little help.
 
 
-    Du bist der, der geht.
-action: Was ich kann ...
-ref: abilities
+    Our websites are meant for people who want to understand how it is built, and develop the courage to change it themselves,
+    or to trust us -- pass your photos and texts over to us and be courious what comes out of it.
+action1: Start Your Website ...
+ref1: start
+action2: Some Examples ...
+ref2: abilities
 
 # Additional Parameters
 

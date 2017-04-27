@@ -10,19 +10,20 @@
 # backgroundImage:  Background image (you bet ;-)
 # screenImage:      Image on screen
 
-abilityName: Kommunikation als Kunst
+abilityName: Senioren Computer Coaching / Michael Schmidt
 description: >
-    Alles ist Kommunikation.
-    Nichts kann sich in der Welt verändern, außer es verändert sich in unserem Bewusstsein:
-    in der Kommunikation mit uns, mit anderen und mit der Welt.
-    Jeder Konflikt, jede Beziehung, jedes Ziel ist eine Aufforderung, uns zu ändern, einen Schritt weiter zu gehen.
+    BASIC
+    ...
+
+
+
 linkText: Mehr
 colorMode: light
 # backgroundImage: img/...
 backgroundColor: "#820503"
-screenImage: img/abilities/globe.jpg
+screenImage: img/abilities/michaelschmidt.berlin.png
 frame: macbook
-placeOfWriting: Ängelsberg
+placeOfWriting: Berlin
 
 ###################################################################
 # Modal Page

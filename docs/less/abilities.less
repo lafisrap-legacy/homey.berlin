@@ -21,7 +21,8 @@
 				font-size: 40px;
 				line-height: 40px;
 				margin-bottom: 25px;
-				.heading-font;
+				font-family: @fontTitle,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				font-weight: 500;
 			}
 		
 			.project-description, .project-description p {
@@ -98,14 +99,14 @@
 			text-align: left;
 			min-height: 100%;		
 			.project-details {
-				padding: 25% 0 0;
+				padding: 10% 0 0;
 				img.client-logo {
 					margin: 0 auto 25px 0;
 				}
 				.project-name {
 					display: block;
-					font-size: 50px;
-					line-height: 50px;
+					font-size: 35px;
+					line-height: 35px;
 				}
 				.project-description, .project-description p {
 					font-size: 22px;
@@ -113,11 +114,13 @@
 				}
 			}
 
-			.project-details.light {
+			.project-details.light,
+			.project-details.light p {
 				color: @themeLight;
 			}
 
-			.project-details.dark {
+			.project-details.dark,
+			.project-details.light p {
 				color: @themeDark;
 			}
 

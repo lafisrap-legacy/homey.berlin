@@ -461,7 +461,7 @@ aside.cta-quote hr {
 aside.cta-quote img {
   border-radius: 100%;
   margin: 0px auto;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 aside.cta-quote .transparent-border {
   border-width: 1px;
@@ -618,7 +618,6 @@ aside.cta-quote .panel {
   margin-bottom: 25px;
   font-family: "IM Fell English SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  text-transform: uppercase;
 }
 .portfolio-carousel .item .project-details .project-description,
 .portfolio-carousel .item .project-details .project-description p {
@@ -689,25 +688,27 @@ aside.cta-quote .panel {
     min-height: 100%;
   }
   .portfolio-carousel .item .project-details {
-    padding: 25% 0 0;
+    padding: 10% 0 0;
   }
   .portfolio-carousel .item .project-details img.client-logo {
     margin: 0 auto 25px 0;
   }
   .portfolio-carousel .item .project-details .project-name {
     display: block;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 35px;
   }
   .portfolio-carousel .item .project-details .project-description,
   .portfolio-carousel .item .project-details .project-description p {
     font-size: 22px;
     line-height: 25px;
   }
-  .portfolio-carousel .item .project-details.light {
+  .portfolio-carousel .item .project-details.light,
+  .portfolio-carousel .item .project-details.light p {
     color: white;
   }
-  .portfolio-carousel .item .project-details.dark {
+  .portfolio-carousel .item .project-details.dark,
+  .portfolio-carousel .item .project-details.light p {
     color: #1B073D;
   }
   .portfolio-carousel .item hr.colored {
@@ -1308,9 +1309,8 @@ body.modern p.lead,
 body.modern header .brand-name,
 body.modern .portfolio-carousel .project-name,
 body.modern .testimonials .testimonial-author .name {
-  font-family: "IM Fell English SC", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-weight: 400 !important;
-  text-transform: uppercase !important;
+  font-family: "IM Fell English SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 body.modern .about-carousel .owl-controls .owl-prev,
 body.modern .testimonials .owl-controls .owl-prev,
@@ -1333,9 +1333,8 @@ body.vintage p.lead,
 body.vintage header .brand-name,
 body.vintage .portfolio-carousel .project-name,
 body.vintage .testimonials .testimonial-author .name {
-  font-family: "IM Fell English SC", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-weight: 400 !important;
-  text-transform: uppercase !important;
+  font-family: "IM Fell English SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 body.vintage .about-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .owl-controls .owl-prev,
@@ -1474,6 +1473,7 @@ body.vintage .testimonials .owl-controls .owl-next {
   margin-bottom: 30px;
 }
 .pricing .pricing-item h3 {
+  font-size: 38px;
   margin: 0;
 }
 .pricing .pricing-item hr {
@@ -1484,10 +1484,10 @@ body.vintage .testimonials .owl-controls .owl-next {
 }
 .pricing .pricing-item .price .number {
   font-weight: 900;
-  font-size: 50px;
+  font-size: 30px;
 }
 .pricing .pricing-item .price .number sup {
-  font-size: 30px;
+  font-size: 15px;
 }
 .pricing .pricing-item .list-group-item {
   border-radius: 0;

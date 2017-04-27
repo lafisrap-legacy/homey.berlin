@@ -10,18 +10,16 @@
 # backgroundImage:  Background image (you bet ;-)
 # screenImage:      Image on screen
 
-abilityName: Lebende Ideen
+abilityName: Mezzosopran / Maarja Purga
 description: >
-    Nichts ist so stark wie eine Idee, deren Zeit gekommen ist.
-    Nichts ist so einsam wie eine Idee, die nicht im Herzen von Menschen lebt.
-    Nichts ist so spannend wie zu erleben, wie eine Idee die Wirklichkeit umpflügt.
-    (Student: „Herr Hegel! Und was, wenn die Wirklichkeit sich nicht an Ihre Ideen hält?“ Hegel: „Um so schlimmer für die Wirklichkeit.“)
-linkText: Mehr
+    PREMIUM 
+    ...
+linkText: More
 colorMode: light
 # backgroundImage: img/...
 backgroundColor: "#611469"
 screenImage: img/backgrounds/startingpoints5.jpg
-placeOfWriting: Dahab
+placeOfWriting: Cologne
 
 ###################################################################
 # Modal Page
