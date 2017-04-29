@@ -664,26 +664,9 @@ aside.cta-quote .panel {
 .portfolio-carousel .owl-controls .owl-next {
   right: 0;
 }
-#abilities h2 {
-  color: #1B073D;
-}
-#abilities p {
-  color: #1B073D;
-  font-size: 30px;
-  font-family: "IM Fell English SC";
-  border: 0px solid #1B073D;
-  border-radius: 100%;
-  padding: 40px;
-  background-color: rgba(0, 0, 0, 0);
-  width: 80%;
-  margin: -45px auto;
-}
-#abilities a.asterix:hover {
-  color: #BA4C3D;
-}
 @media (min-width: 992px) {
   .portfolio-carousel .item {
-    padding: 155px 55px 155px;
+    padding: 55px 55px 90px;
     text-align: left;
     min-height: 100%;
   }
@@ -703,12 +686,10 @@ aside.cta-quote .panel {
     font-size: 22px;
     line-height: 25px;
   }
-  .portfolio-carousel .item .project-details.light,
-  .portfolio-carousel .item .project-details.light p {
+  .portfolio-carousel .item .project-details.light {
     color: white;
   }
-  .portfolio-carousel .item .project-details.dark,
-  .portfolio-carousel .item .project-details.light p {
+  .portfolio-carousel .item .project-details.dark {
     color: #1B073D;
   }
   .portfolio-carousel .item hr.colored {

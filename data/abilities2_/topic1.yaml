@@ -22,9 +22,7 @@ linkText: Overview
 colorMode: light
 # backgroundImage: img/...
 backgroundColor: "#13105C"
-screenImage: img/abilities/pencils.jpg
-placeOfWriting: Dahab
-date: 13. Febr. 2017
+screenVideo: video/image_to_playground.mp4
 
 titleSize:        40
 # titleColor:       "white"
@@ -33,54 +31,3 @@ titleSize:        40
 # lineColor:        "#700D00"
 # buttonSize:       14
 
-
-###################################################################
-# Modal Page
-#
-# All Topics
-#
-# !Important: Make sure that you have always the right amount of
-#             spaces (not tabs!!) in the beginning of each line,
-#             Yaml is very picky.
-#
-# topicsUp:     List with topics that are shown above the screen
-# topicsDown:   List with topics that are shown below the screen
-# oneword:      The word that appears above the screen
-# description:  The text that appears when you hover over the word
-# text:         Text (with images, MarkDown syntax) on the screen
-# image:        An image on the screen
-# video:        A video on the screen
-# closeButton:  Text on close button
-#
-# !Note: You must choose one of the three: text, image, video
-# !Note: To get a new paragraph in a text you need two (!) empty lines
-
-stone: saphire
-topicsUp:
-  - oneword: Walktrough
-    description: ...
-    video: video/image_to_playground.mp4
-
-
-
-closeButton: Close
-
-
-
-# modalTitleSize:         40
-# modalTitleColor:        red
-# modalLineColor:         red
-# modalTopicSize:         34
-# modalTopicWidth:        340
-# modalTopicColor:        grey
-# modalDescriptionSize:   16
-# modalDescriptionColor:  white
-# modalButtonSize:        60
-# modalButtonColor:       grey
-# modalWeatherSize:       14
-# modalWeatherColor:      white
-# modalTextSize:          24      # Use <h3> tag in the md text for headlines
-# modalTextColor:         green
-# modalImagePadding:      20
-modalImageWidth:         300
-# modalImageOpacity:      100, 100, 100, 0.05   # First three values red, green, blue, last opacity

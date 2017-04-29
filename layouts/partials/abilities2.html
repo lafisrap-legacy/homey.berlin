@@ -127,7 +127,7 @@
 
     {{ if .modalTopicColor }}
     .modal_{{ $index }} .topic li {
-        color: {{ .modalTopicColor }} !important;
+        color: {{ .modalTopicColor }} !important;-25
     }
     {{ end }}
 
@@ -235,149 +235,17 @@
                         {{ end }}
                         <span class="project-name project-color-{{ .colorMode }}">{{ .abilityName }}</span>
                         <span class="project-description project-color-{{ .colorMode }}">{{ .description | markdownify }}</span>
-                        <hr class="colored">
-                        <a href="#workModal{{ $index }}" data-toggle="modal" class="btn btn-outline-{{ .colorMode }}">{{ .linkText }} <i class="fa fa-long-arrow-right fa-fw"></i></a>
                     </div>
                 </div>
                 <div class="col-md-{{ $imageColumns }} col-md-pull-{{ sub 12 $imageColumns }} hidden-xs">
-                    {{ if $screenFrame }}
-                    <div class="device-container">
-                        <div class="device-mockup {{ .frame }} portrait black">
-                            <div class="device">
-                                <div class="screen">
-                                    <img src="{{ .screenImage }}" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    {{ else }}
                     <div class="image-frame" style="padding: {{ $imagePadding }}px;">
-                        <img src="{{ .screenImage }}" class="img-responsive" alt="">
+                        <video controls class="img-responsive">
+                            <source src="{{ .screenVideo }}" type="video/mp4">
+                        </video>
                     </div>
-                    {{ end }}
                 </div>
             </div>
         </div>
     </div>
     {{ end }}
 </section>
-
-<!--
-<div id="just-for-width" class="device-mockup">
-    {{ range $index, $element := .Site.Data.abilities2_ }}
-    <div class="topics modal_{{ $index }}">
-        <div class="inner">
-            {{ $modalTopicSize := .modalTopicSize }}
-            {{ range $i, $e := .topicsUp }}
-            <div class="topic up {{ if eq $i 0 }}cr{{ end }}" padding="{{ if $modalTopicSize }}{{ $modalTopicSize }}{{ else }}20{{ end }}">
-                <div class="oneword row"><li>{{ .oneword | markdownify }}</li></span></div>
-            </div>
-            {{ end }}
-            {{ range $i, $e := .topicsDown }}
-            <div class="topic down {{ if eq $i 0 }}cr{{ end }}" padding="{{ if $modalTopicSize }}{{ $modalTopicSize }}{{ else }}20{{ end }}">
-                <div class="oneword row"><li>{{ .oneword | markdownify }}</li></span></div>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-    {{ end }}
-</div>
--->
-{{ range $index, $element := .Site.Data.abilities2_ }}
-<div class="portfolio-modal modal fade modal_{{ $index }}" id="workModal{{ $index }}" tabindex="-1" role="dialog" aria-hidden="true"{{ if .backgroundImage }}style="background-image: url('{{ .backgroundImage }}')"{{ else if .backgroundColor }}style="background-color: {{ .backgroundColor }}"{{ end }}>
-    <div class="modal-content">
-        <div class="modal-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-11 col-md-offset-1">
-                        <h2 class="{{ .colorMode }}">{{ .abilityName }}</h2>
-                        <hr class="colored">
-                    </div>
-                    <div class="device-mockup-wrapper col-md-11 col-md-offset-1">
-                        <div class="device-mockup {{ .stone }}">
-                            <div class="topics up">
-                                <div class="inner">
-                                    {{ $colorMode := .colorMode }}
-                                    {{ range $i, $e := .topicsUp }}
-                                    <div class="topic up" tid="{{ $i }}">
-                                        <div class="oneword row {{ $colorMode }}"><li>{{ .oneword | markdownify }}</li></span></div>
-                                        <hr>
-                                        <div class="description row {{ $colorMode }}"><span>{{ .description | markdownify }}</span></div>
-                                        <br><br><br><br><br>
-                                    </div>
-                                    {{ end }}
-                                </div>
-                            </div>
-                            <div class="topics down">
-                                <div class="inner">
-                                    {{ $len := len .topicsUp }}
-                                    {{ range $i, $e := .topicsDown }}
-                                    <div class="topic down" tid="{{ add $i $len }}">
-                                        <br><br><br><br><br>
-                                        <div class="description row {{ $colorMode }}"><span>{{ .description | markdownify }}</span></div>
-                                        <hr>
-                                        <div class="oneword row {{ $colorMode }}"><li>{{ .oneword | markdownify }}</li></span></div>
-                                    </div>
-                                    {{ end }}
-                                </div>
-                            </div>
-                            <div class="device">
-                                <div class="screen">
-                                    <div class="mockup-carousel">
-                                        {{ range $i, $e := .topicsUp }}
-                                        <div class="item item{{ $i }}">
-                                            {{ if .text }}
-                                            <img src="img/nil.png" class="img-responsive" alt="">
-                                            <table class="text"><tr><td><div>{{ .text | markdownify }}</div></td></tr></table>
-                                            {{ else if .image }}
-                                            <img src="{{ .image }}" class="img-responsive" alt="">
-                                            {{ else if .video }}
-                                            <video controls>
-                                                <source src="{{ .video }}" type="video/mp4">
-                                            </video>
-                                            {{ end }}
-                                        </div>
-                                        {{ end }}
-                                        {{ $len := len .topicsUp }}
-                                        {{ range $i, $e := .topicsDown }}
-                                        <div class="item item{{ add $i $len }}">
-                                            {{ if .text }}
-                                            <img src="img/nil.png" class="img-responsive" alt="">
-                                            <table class="text"><tr><td><div><h3>{{ .oneword | markdownify }}</h3>{{ .text | markdownify }}</div></td></tr></table>
-                                            {{ else if .image }}
-                                            <img src="{{ .image }}" class="img-responsive" alt="">
-                                            {{ else if .video }}
-                                            <video controls>
-                                                <source src="{{ .video }}" type="video/mp4">
-                                            </video>
-                                            {{ end }}
-                                        </div>
-                                        {{ end }}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ .closeButton }}</button>
-                    </div>
-                    <div class="infoline col-md-8 col-md-offset-2">
-                        <div class="list-wrapper">
-                            <ul class="list-inline item-details">
-                                <li class="date">Datum: <strong>{{ .date }}</strong></li>
-                                <li class="placeOfWriting" place="{{ .placeOfWriting }}" language="{{ .language }}">Ort: <strong>{{ .placeOfWriting }}</strong></li>
-                                <li class="weather">Derzeitiges Wetter: <strong></strong></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-{{ end }}
