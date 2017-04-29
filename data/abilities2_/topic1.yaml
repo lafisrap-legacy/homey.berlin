@@ -23,6 +23,7 @@ colorMode: light
 # backgroundImage: img/...
 backgroundColor: "#13105C"
 screenVideo: video/image_to_playground.mp4
+screenImage: img/abilities/pencils.jpg
 
 titleSize:        40
 # titleColor:       "white"

@@ -1470,8 +1470,12 @@ body.vintage .testimonials .owl-controls .owl-next {
 .pricing .pricing-item .price .number sup {
   font-size: 15px;
 }
+.pricing .pricing-item .list-group {
+  cursor: pointer;
+}
 .pricing .pricing-item .list-group-item {
-  border-radius: 0;
+  border-radius: 5px;
+  padding: 5px 8px 5px 8px;
 }
 @media (min-width: 992px) {
   .pricing {

@@ -1,0 +1,59 @@
+<!-- Pricing Section -->
+{{ with .Site.Data.pricing }}
+<section id="pricing" class="pricing" style="background-image: url('{{ .image }}')">
+    <div class="container wow fadeIn">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h2>{{ .title }}</h2>
+                <hr class="colored">
+                <p>{{ .description }}</p>
+            </div>
+        </div>
+        <div class="row content-row">
+            {{ $currency := .currency }}
+            {{ $featured := .featured }}
+            {{ $length := (len .table) }}
+            {{ range $index, $content := .table }}
+            <div class="col-md-4">
+                {{ if $featured }}
+                <div class="pricing-item featured{{ if eq $index 0 }}-first{{ else if eq $index ( sub $length 1 ) }}-last{{ end }}">
+                {{ else }}
+                <div class="pricing-item">
+                {{ end }}
+                    <h3>{{ .title }}</h3>
+                    <hr class="colored">
+
+                    <div class="panel-group" id="pricing-list-{{ $index }}">
+                        <ul class="list-group">
+                            {{ range $i, $c := .list }}
+                            <li class="list-group-item">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#pricing-list-{{ $index }}" href="#collapse{{ $index }}-{{ $i }}">
+                                                {{ . | markdownify }}
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div id="collapse{{ $index }}-{{ $i }}" class="panel-collapse collapse">
+                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                  commodo consequat.</div>
+                                </div>                            
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    {{ if .price }}
+                        <div class="price"><span class="number"><sup>{{ $currency }}</sup>{{ .price }}</span>{{ .value }}</div>
+                    {{ end }}
+                    <a href="#" class="btn btn-outline-dark">{{ .action }}</a>
+                </div>
+            </div>
+            {{ end }}i
+        </div>
+    </div>
+</section>
+{{ end }}

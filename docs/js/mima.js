@@ -39,4 +39,9 @@ $( () => {
 
 		document.mamiImagesChecked = checked;
 	});
+
+
+	// Restart Owl-Carousels with Videos
+	setTimeout( () => $( "#abilities2 .owl-prev").trigger("gotostart", [1]), 0);
+	setTimeout( () => $( "#abilities2 .owl-prev").trigger("gotostart", [0]), 1000);
 });
