@@ -1559,3 +1559,11 @@ form .row:first-child .floating-label-form-group {
   float: left;
   margin: 5px;
 }
+.glossar .panel {
+  padding: 15px;
+  border-radius: 10px;
+}
+.glossar .panel .letter {
+  font-size: 25px;
+  color: #1B073D;
+}

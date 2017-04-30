@@ -1,0 +1,58 @@
+<!-- Quote Call to Action -->
+{{ with .Site.Data.glossar }}
+
+<style>
+
+{{ if .textSize }}
+	aside.cta-quote div.quote, aside.cta-quote div.quote p {
+		font-size: {{ .textSize }}px !important;
+		line-height: {{ mul .textSize 1.375 }}px !important;
+  }
+{{ end }}
+
+{{ if .textPadding }}
+	aside.cta-quote .panel {
+		padding: {{ mul .textPadding 0.266 }}px {{ mul .textPadding 0.666 }}px !important;
+  }
+{{ end }}
+
+{{ if .textColor }}
+	aside.cta-quote div.quote {
+		color: {{ .textColor }} !important;
+  }
+{{ end }}
+
+
+@media(min-width:768px) {
+}
+
+@media(min-width:992px) {
+}
+
+</style>
+<section id="glossar" class="glossar" style="background-image: url('{{ .backgroundImage }}');">
+    <div class="container">
+        <div class="row">
+            <div class="panel transparent-border col-md-10 col-md-offset-1 wow fadeIn">
+							<ul class="nav nav-tabs">
+            	{{ range $i, $e := .list }}
+							  <li class="{{ if eq $i 0 }}active {{ end }}letter">
+							  	<a data-toggle="tab" href="#glossar-tab-{{ $i }}">{{ .letter }}</a>
+							  </li>
+							{{ end }}
+							</ul>
+							<div class="tab-content">
+            	{{ range $i, $e := .list }}
+							  <div id="glossar-tab-{{ $i }}" class="tab-pane fade {{ if eq $i 0 }}in active{{ end }}">
+            			{{ range $j, $e1 := .words }}
+							    <h3>{{ .word }}</h3>
+							    <p>{{ .explanation | markdownify }}</p>
+									{{ end }}
+							  </div>
+							{{ end }}
+							</div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,21 @@
+# Change LESS Globals in file static/less/vitality.less for following items
+# @themeDark:   Color of title and subtitle
+# @themePrimary:   Color of double line and navigation button
+# @fontPrimary: Font of subtitle
+# @fontTitle:   Font of title
+
+backgroundImage: img/backgrounds/dahabshore.jpg
+list:
+  - letter: A
+    words:
+      - word: Angular
+        explanation: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
+  - letter: B
+    words:
+      - word: Boot
+        explanation: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
+      - word: Bootstrap
+        explanation: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
