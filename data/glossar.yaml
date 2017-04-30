@@ -19,3 +19,8 @@ list:
       - word: Bootstrap
         explanation: >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
+  - letter: O
+    words:
+      - word: Open Source
+        explanation: >
+          Lorem1 ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
