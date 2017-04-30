@@ -3,24 +3,58 @@
 
 <style>
 
+{{ if .letterSize }}
+	.glossar .panel .letter {
+		font-size: {{ .letterSize }}px !important;
+		line-height: {{ mul .letterSize 1.375 }}px !important;
+  }
+{{ end }}
+
+{{ if .headerSize }}
+	.glossar .panel h3 {
+		font-size: {{ .headerSize }}px !important;
+		line-height: {{ mul .headerSize 1.375 }}px !important;
+  }
+{{ end }}
+
 {{ if .textSize }}
-	aside.cta-quote div.quote, aside.cta-quote div.quote p {
+	.glossar .panel p {
 		font-size: {{ .textSize }}px !important;
 		line-height: {{ mul .textSize 1.375 }}px !important;
   }
 {{ end }}
 
-{{ if .textPadding }}
-	aside.cta-quote .panel {
-		padding: {{ mul .textPadding 0.266 }}px {{ mul .textPadding 0.666 }}px !important;
+{{ if .letterColor }}
+	.glossar .panel .letter a {
+		color: {{ .letterColor }} !important;
+  }
+{{ end }}
+
+{{ if .letterColorActive }}
+	.glossar .panel .letter.active a {
+		color: {{ .letterColorActive }} !important;
+  }
+{{ end }}
+
+
+{{ if .headerColor }}
+	.glossar .panel h3 {
+		color: {{ .headerColor }} !important;
   }
 {{ end }}
 
 {{ if .textColor }}
-	aside.cta-quote div.quote {
+	.glossar .panel p {
 		color: {{ .textColor }} !important;
   }
 {{ end }}
+
+{{ if .opacity }}
+	.glossar .panel {
+		background-color: rgba( 255,255,255, {{ .opacity }}) !important;
+  }
+{{ end }}
+
 
 
 @media(min-width:768px) {

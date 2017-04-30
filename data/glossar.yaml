@@ -24,3 +24,12 @@ list:
       - word: Open Source
         explanation: >
           Lorem1 ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
+
+# letterSize:     		24
+# letterColor: 				"yellow"
+# letterColorActive: 	"green"
+# headerSize:     		24
+# headerColor: 				"green"
+# textSize:     		24
+# textColor: 				"blue"
+opacity: 					0.6
