@@ -4,7 +4,7 @@
 # @fontPrimary: Font of subtitle
 # @fontTitle:   Font of title
 
-backgroundImage: img/backgrounds/dahabshore.jpg
+backgroundImage: img/backgrounds/bg-header.jpg
 list:
   - letter: A
     words:
