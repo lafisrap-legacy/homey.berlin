@@ -7,7 +7,7 @@
 
 - Video should start immediatly
 
-- Video clips for three websites (Mac)
+- Screenshots of Big and Mobile
 - Some explaining text
 
 ## Offers

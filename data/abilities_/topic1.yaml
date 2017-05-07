@@ -22,7 +22,7 @@ linkText: Overview
 colorMode: light
 # backgroundImage: img/...
 backgroundColor: "#13105C"
-screenImage: img/abilities/pencils.jpg
+screenImage: img/abilities/anklang.se.png
 placeOfWriting: Dahab
 date: 13. Febr. 2017
 
@@ -59,11 +59,34 @@ stone: saphire
 topicsUp:
   - oneword: Walktrough
     description: ...
-    video: video/m.mp4
-  - oneword: Walktrough 2
-    description: ...
-    video: video/m.mp4
+    video: video/anklang.se.mkv
+  - oneword: ...
+    description: > 
+      Etwas Neues erschaffen, die Vorfreude darauf, ein spannendes Gefühl.
+      Alles fliegt durcheinander: Was ich kann, was ich gesehen habe, was ich will.
+      Und endet bei:<br>JA, das kann ich.
+    text: >
+      <h3>Idee</h3>
 
+
+
+      ![left](img/backgrounds/startingpoints3.jpg)
+      Die Idee ,,, **Lorem ipsum dolor sit amet**, consectetur adipisicing elit.
+      Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea.
+      Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.
+
+
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea.
+      Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.
+      ![right](img/backgrounds/startingpoints1.jpg)
+
+
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea.
+      Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.
 
 
 closeButton: Close
