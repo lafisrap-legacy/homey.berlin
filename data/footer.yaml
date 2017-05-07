@@ -1,14 +1,14 @@
-image: "img/backgrounds/startingpoints9.jpg"
+image: "img/backgrounds/startingpoints.jpg"
 details: # 2, 3 or 4 entries
   - icon:   "fa-phone"
     title:  "Phone / Whatsapp / Signal"
-    text:   "+49-163-7951207"
+    text:   "+49-176-43809340<br>+49-163-7951207"
   - icon:   "fa-map-marker"
     title:  "Visit"
-    text:   "Turiner Straße 21, 13347 Berlin"
+    text:   Turiner Straße 21, 13347 Berlin
   - icon:   "fa-envelope"
     title:  "Email"
-    text:   "m@michaelschmidt.berlin"
+    text:   "mail@m-urb.de<br>michael@c2064.org"
 social:
   - icon:   "fa-twitter"
     link:   "#"
@@ -32,4 +32,4 @@ impressumText: >
     Jabber: lafisrap@trashserver.net<br>
     Website: michaelschmidt.berlin<br>
     <h4 style="margin-bottom: 60px;"></h4>
-copyright: 2017 Your Name
+copyright: 2017 MaMi Berlin
