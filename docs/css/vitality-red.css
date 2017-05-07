@@ -304,6 +304,11 @@ hr.colored {
 .navbar a:focus {
   outline: none;
 }
+.navbar .navbar-header .thumbnails .image {
+  width: 28px;
+  float: left;
+  margin: 5px;
+}
 .navbar .navbar-nav li a:focus {
   outline: none;
 }

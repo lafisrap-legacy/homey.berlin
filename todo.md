@@ -2,13 +2,23 @@
 
 ## ABOUT
 
-- textSize funktioniert nicht
+
+## Examples
+
+- Video should start immediatly
+
+- Video clips for three websites (Mac)
+- Some explaining text
 
 ## Offers
 
-- Accordeon für Angebote
+- Fertig ausfüllen
+
 
 ## Image Gallery
 
-- Rubriken
-- Select image, collect, order
+
+## Glossary
+
+- Add topics
+- Sending should work

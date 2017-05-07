@@ -55,7 +55,7 @@
                     {{ .logoText }}
                 {{ end }}
             </a>
-            <a href="#contact"><div class="navbar-name"></div></a>
+            <a href="#contact"><div class="navbar-name"></div><div class="thumbnails"></div></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -64,14 +64,14 @@
                         <a class="page-scroll" href="#{{ if .href }}{{ .href }}{{ else }}{{ .title | urlize }}{{ end }}">{{ .title }}</a>
                     </li>
                 {{ end }}
-                    {{ if .login }}
-                    <li class="navbar-login">
-                        <span><i class="fa fa-github"> {{ .login }}</i></span>
-                    </li>
-                    <li class="navbar-logout">
-                        <span><i class="fa fa-github"> {{ .logout }}</i></span>
-                    </li>
-                    {{ end }}
+                {{ if .login }}
+                <li class="navbar-login">
+                    <span><i class="fa fa-github"> {{ .login }}</i></span>
+                </li>
+                <li class="navbar-logout">
+                    <span><i class="fa fa-github"> {{ .logout }}</i></span>
+                </li>
+                {{ end }}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
