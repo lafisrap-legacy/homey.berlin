@@ -25,14 +25,17 @@ $( () => {
 				});
 		});
 
-		let images = "";
+		let images = "",
+				imageNames = "";
 
 		$.each(checked, (index, image) => {
 			images += '<div class="image"><img src="'+image.image+'" class="img-responsive" /></div>';
+			imageNames += image.image + ",";
 		})		
 
 		if( checked.length ) {
 			$( "#contact .thumbnails").html(images);
+			$( "#contact .images").val(imageNames);
 			$( ".navbar-header .navbar-name" ).text( checked.length + " image/s selected." );
 			$( ".navbar-header .thumbnails" ).html(images);
 		}
