@@ -11,7 +11,7 @@ table:
       - text: Artful & responsive website, based on your text and images
         explanation: >
           You give us the freedom to use our artistic talents and we try to create something beautiful out of your texts and images.
-          Responsive ist a technical term and means that the website look nice of smartphones, tablets and large screens.
+          "Responsive" ist a technical term and means that the website look nice of smartphones, tablets and large screens.
       - text: Choose any free StartBootstrap theme 
         explanation: >
           The website [StartBootstrap.com](https://startbootstrap.com) is a great source for beautiful, modern and functional website templates.
@@ -20,7 +20,7 @@ table:
         explanation: >
           All StartBootstrap themes are organized in sections, like this one, where you find our three offers,
           or the next, where you can learn about how a website is built.
-          Sections are very flexible. You can swap them, duplicate, take them out, whatever you like.
+          Sections are very flexible. You can swap them, duplicate (in most cases), take them out, whatever you like.
       - text: Choose up to 5 photos from gallery
         explanation: >
           Further [below](#startingpoints) you find a gallery with photos made by Maarja.
@@ -48,26 +48,37 @@ table:
     list:
       - text: Artful & responsive website, based on your text, images, video and audio
         explanation: >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          You give us the freedom to use our artistic talents and we try to create something beautiful out of your texts, images, videos and sound files.
+          "Responsive" ist a technical term and means that the website look nice of smartphones, tablets and large screens.
       - text: Choose free or premium StartBootstrap theme
         explanation: >
-          ...
+          The website [StartBootstrap.com](https://startbootstrap.com) is a great source for beautiful, modern and functional website templates.
+          They have many free and premium themes. Choose one of them to start with ... 
       - text: Reorganisation of sections
         explanation: >
-          ...
+          All StartBootstrap themes are organized in sections, like this one, where you find our three offers,
+          or the next, where you can learn about how a website is built.
+          Sections are very flexible. You can swap them, duplicate (in most cases), take them out, whatever you like.
       - text: Choose up to 10 photos from gallery
         explanation: >
-          ...
+          Further [below](#startingpoints) you find a gallery with photos made by Maarja.
+          You can choose up to ten of them for free, which is a value of about €300 normally.
       - text: Edit website yourself
         explanation: >
-          ...
+          When your website is ready, you will be able to modify it. We will show you how.
+          Changing text and images is quite simple.
+          Fonts or layout are more complicated, but in theory everything can be changed by you.
+          There are now limits.
       - text: Free website hosting, with backup
         explanation: >
-          ...
+          GitHub is the best place in the world to host (keep, store) your projects, your website in this case.
+          For example, you can go back to whatever version you want, if somethings goes wrong, anytime.
+          And the new function GitHub pages lets you publish a website automatically, when you change something.
+          And its free.
       - text: "optional: use your own web address"
         explanation: >
-          ...
+          With a little technical effort, you can make GitHub use your own web address, any web address.
+          We will tell you how, when you want to do that.
     action: Order
   - title: Personal
     price: call us
@@ -75,23 +86,29 @@ table:
     list:
       - text: Based on BASIC or PREMIUM offer
         explanation: >
-          ...
+          The following offers we can make, when you already got a website from us, or are in the process of getting one.
+
       - text: Personal photo session and filming (make it personal)
         explanation: >
-          ...
+          Maarja is professional photographer. Together with her you can have a photo session at places you like.
+          Or spend a day or two together for a short movie about yourself. One example you can [find here](https://vimeo.com/93279817)
       - text: Hugo Static Site Generator (manage lots of images, text and other media)
         explanation: >
-          ...
+          If you want to change your website yourself regularly: New videos, texts, blogs, images, keep it alive, 
+          you will love Hugo. Hugo makes it very easy to change things in a breeze.
       - text: Programming addons/changes to website (whatever you want)
         explanation: >
-          ...
+          Michael is professional programmer. And sometimes you get an idea how your website could be even better, cooler or more functional.
+          Then talk to Michael. There are not limits in programming, everything is possible. 
+          There are just limits in time.
       - text: Drawings, art work, get a logo
         explanation: >
-          ...
-      - text: Coaching (if you have questions ...)
+          Maarja again: You might need some special art work, like [drawings](http://www.kalamatsi.ee/), or music, or a logo.
+          Let yourself be surprised, again and again. :-)
+      - text: Technical Coaching (if you have questions ...)
         explanation: >
-          ...
-      - text: Introduction into website programming (take the steering wheel!)
-        explanation: >
-          ...
+          You would really like to learn more about this ... machine.
+          But you think it's too complicated, or you will get stuck every now and then.
+          You will never understand enough of it, that you can get playful creative.
+          Then you have been tricked by a wrong thought. Talk to Michael. ;-)
     action: Order
