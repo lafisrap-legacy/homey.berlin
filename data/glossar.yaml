@@ -6,24 +6,71 @@
 
 backgroundImage: img/backgrounds/bg-header.jpg
 list:
-  - letter: A
-    words:
-      - word: Angular
-        explanation: >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
   - letter: B
     words:
-      - word: Boot
-        explanation: >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
       - word: Bootstrap
         explanation: >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
+          Eine Software-Bibliothek (Library), die dabei hilft auflösungsunabhängige Webseiten zu gestalten.
+          Vom Twitter-Team.
+  - letter: F
+    words:
+      - word: Free Software / Freie Software
+        explanation: >
+          Open Source-Software, die zusätzlich noch frei weiterverwendet werden darf.
+          Wie frei entscheidet der Copyright-Vermerk, z.B. MIT oder Creative Commons
+  - letter: I
+    words:
+      - word: Icons
+        explanation: >
+          Sinnbilder, kleine Grafiken
   - letter: O
     words:
       - word: Open Source
         explanation: >
-          Lorem1 ipsum dolor sit amet, consectetur adipisicing elit. Doloribus temporibus reprehenderit facere voluptas perspiciatis, nostrum consequatur magnam ab maiores aliquam! Fugit culpa deleniti dolorum dolor accusantium cum illum amet eos?
+          Software (Programme, Webseiten), bei denen der Quelltext einsehbar ist.
+          Man darf quasi die Motorhaube öffnen und nachschauen, wie alles gemacht ist.
+  - letter: K
+    words:
+      - word: Konsole, Kommandozeile
+        explanation: >
+          Programm, mit dem man den Computer über Kommandos steuern kann. 
+          Deswegen auch Kommandozeile genannt. Englisch auch Terminal.
+  - letter: Q
+    words:
+      - word: Quelltext
+        explanation: >
+          Computer-Programme, Anweisungen, Daten, so wie der Programmierer sie schreibt.
+          Sie werden danach in ein (fast) nicht von Menschen lesbares Format umgewandelt, damit der Computer sie versteht.
+  - letter: R
+    words:
+      - word: Repository
+        explanation: >
+          Eine Datenablage, ein Platz, wo zu einem Thema eine Anzahl von Dateien und Verzeichnissen gespeichert sind.
+          Zum Beispiel bei GitHub, zum Beispiel eine Webseite.
+  - letter: S
+    words:
+      - word: Software-Bibliothek
+        explanation: >
+          Eine Sammlung von Hilfsprogrammen, die einen spezifischen Zweck erfüllen und die man in eigenen Programmen verwenden kann.
+  - letter: T
+    words:
+      - word: Terminal
+        explanation: >
+          Programm, mit dem man den Computer über Kommandos steuern kann. 
+          Deswegen auch Kommandozeile oder Konsole genannt.
+  - letter: U
+    words:
+      - word: URL
+        explanation: >
+          Uniform Resource Locator, eine Webadresse. Beginnt in der Regel mit http:// oder https://
+  - letter: W
+    words:
+      - word: Web-Browser
+        explanation: >
+          Firefox, Google Chrome, Edge, Opera ...
+      - word: Web-Server
+        explanation: >
+          Ein Programm, das auf Anfrage von einem Web-Browser Webseiten zur Verfügung stellt (über das Internet schickt)
 
 # letterSize:     		24
 # letterColor: 				"yellow"

@@ -1559,7 +1559,7 @@ body.vintage .testimonials .owl-controls .owl-next {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #dbcaf9;
 }
-.thumbnails .image {
+#contact .thumbnails .image {
   width: 120px;
   float: left;
   margin: 5px;
