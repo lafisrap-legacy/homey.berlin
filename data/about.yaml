@@ -4,7 +4,7 @@
 # @fontPrimary: Font of subtitle
 # @fontTitle: 	Font of title
 
-backgroundImage: img/backgrounds/bike.jpg
+backgroundImage: img/backgrounds/city.jpg
 image: img/maarja.jpg
 image2: img/michael.jpg
 imagePos: both

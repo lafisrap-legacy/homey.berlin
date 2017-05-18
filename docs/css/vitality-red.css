@@ -16,7 +16,7 @@ section {
 }
 .bg-dark {
   color: white;
-  background-color: #1B073D;
+  background-color: #1b073d;
 }
 @media (max-width: 767px) {
   section {
@@ -30,7 +30,7 @@ input.form-control {
   border-radius: 0 !important;
 }
 input.form-control:focus {
-  border-color: #BA4C3D;
+  border-color: #ba4c3d;
   box-shadow: none;
 }
 .btn,
@@ -41,9 +41,9 @@ input.form-control:focus {
   transition: all 0.5s;
 }
 .btn-primary {
-  color: white;
-  background-color: #BA4C3D;
-  border-color: #BA4C3D;
+  color: #ffffff;
+  background-color: #ba4c3d;
+  border-color: #ba4c3d;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -54,7 +54,7 @@ input.form-control:focus {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: white;
+  color: #ffffff;
   background-color: #a74437;
   border-color: #9f4134;
 }
@@ -81,12 +81,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #BA4C3D;
-  border-color: #BA4C3D;
+  background-color: #ba4c3d;
+  border-color: #ba4c3d;
 }
 .btn-primary .badge {
-  color: #BA4C3D;
-  background-color: white;
+  color: #ba4c3d;
+  background-color: #ffffff;
 }
 body {
   font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -94,7 +94,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #BA4C3D;
+  color: #ba4c3d;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -146,7 +146,7 @@ hr.right {
   margin: 15px 0 15px auto;
 }
 hr.colored {
-  border-color: #BA4C3D;
+  border-color: #ba4c3d;
 }
 @media (min-width: 768px) {
   hr {
@@ -161,7 +161,7 @@ hr.colored {
   }
 }
 .text-primary {
-  color: #BA4C3D;
+  color: #ba4c3d;
 }
 .navbar-fixed-top {
   margin-bottom: 0;
@@ -172,19 +172,19 @@ hr.colored {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #1B073D;
+  color: #1b073d;
   background-color: white;
   border-radius: 0;
 }
 .navbar-default {
-  background-color: white;
+  background-color: #ffffff;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #1B073D;
+  background-color: #1b073d;
 }
 .navbar-default,
 .navbar-inverse {
@@ -193,7 +193,7 @@ hr.colored {
 }
 .navbar-default .navbar-toggle,
 .navbar-inverse .navbar-toggle {
-  color: white;
+  color: #ffffff;
   font-size: 14px;
   padding: 6px 10px;
 }
@@ -202,11 +202,11 @@ hr.colored {
 .navbar-default .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:focus {
   background-color: white;
-  color: #1B073D;
+  color: #1b073d;
 }
 .navbar-default .navbar-brand,
 .navbar-inverse .navbar-brand {
-  color: white;
+  color: #ffffff;
   opacity: 1;
   text-decoration: none;
   -webkit-transition: all 0.5s;
@@ -236,7 +236,7 @@ hr.colored {
 .navbar-inverse .navbar-name {
   font-bottom: 14px;
   cursor: pointer;
-  color: white;
+  color: #ffffff;
 }
 .navbar-default .navbar-name,
 .navbar-inverse .navbar-name {
@@ -249,7 +249,7 @@ hr.colored {
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a {
-  color: white;
+  color: #ffffff;
   font-size: 20px;
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -284,7 +284,7 @@ hr.colored {
   }
   .navbar-default.navbar-expanded .navbar-nav > li > a,
   .navbar-inverse.navbar-expanded .navbar-nav > li > a {
-    color: #1B073D;
+    color: #1b073d;
   }
   .navbar-default.navbar-expanded .navbar-nav > li > a:hover,
   .navbar-inverse.navbar-expanded .navbar-nav > li > a:hover {
@@ -298,7 +298,7 @@ hr.colored {
   .navbar-inverse.navbar-expanded .navbar-logout,
   .navbar-default.navbar-expanded .navbar-name,
   .navbar-inverse.navbar-expanded .navbar-name {
-    color: #1B073D;
+    color: #1b073d;
   }
 }
 .navbar a:focus {
@@ -317,7 +317,7 @@ header {
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #1B073D;
+  background-color: #1b073d;
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -327,7 +327,7 @@ header {
   padding: 100px 0;
 }
 header .intro-content {
-  color: #1B073D;
+  color: #1b073d;
   text-align: center;
   position: relative;
 }
@@ -359,12 +359,12 @@ header .scroll-down {
 header .scroll-down .btn {
   height: 50px;
   width: 50px;
-  border: 2px solid #BA4C3D;
+  border: 2px solid #ba4c3d;
   border-radius: 100% !important;
   line-height: 50px;
   padding: 0;
   letter-spacing: normal;
-  color: #BA4C3D;
+  color: #ba4c3d;
   font-size: 30px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -383,7 +383,7 @@ header .scroll-down .btn:hover {
     background-attachment: scroll;
   }
   header .intro-content {
-    color: #1B073D;
+    color: #1b073d;
     text-align: center;
     width: 50%;
     margin: auto;
@@ -432,8 +432,8 @@ header.video .scroll-down {
   }
 }
 aside.cta-quote {
-  color: white;
-  background-color: #1B073D;
+  color: #ffffff;
+  background-color: #1b073d;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -567,7 +567,7 @@ aside.cta-quote .panel {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #BA4C3D !important;
+  background-color: #ba4c3d !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -598,10 +598,10 @@ aside.cta-quote .panel {
 .portfolio-carousel {
   padding: 0;
   color: white;
-  background-color: #1B073D;
+  background-color: #1b073d;
 }
 .portfolio-carousel .item {
-  background-color: #1B073D;
+  background-color: #1b073d;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -632,8 +632,8 @@ aside.cta-quote .panel {
 }
 .portfolio-carousel .item .project-details .project-description .btn-outline-light,
 .portfolio-carousel .item .project-details .project-description p .btn-outline-light {
-  color: white;
-  border-color: white;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 .portfolio-carousel .item .device-container {
   padding: 25px;
@@ -653,7 +653,7 @@ aside.cta-quote .panel {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #BA4C3D !important;
+  background-color: #ba4c3d !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -692,10 +692,10 @@ aside.cta-quote .panel {
     line-height: 25px;
   }
   .portfolio-carousel .item .project-details.light {
-    color: white;
+    color: #ffffff;
   }
   .portfolio-carousel .item .project-details.dark {
-    color: #1B073D;
+    color: #1b073d;
   }
   .portfolio-carousel .item hr.colored {
     margin: 10px auto 10px 0;
@@ -788,15 +788,15 @@ aside.cta-quote .panel {
   font-family: "IM Fell English SC";
 }
 .portfolio-modal h2.light {
-  color: white;
+  color: #ffffff;
 }
 .portfolio-modal h2.dark {
-  color: #1B073D;
+  color: #1b073d;
 }
 .portfolio-modal .topic {
   font-size: 30px;
   font-family: "Josefin Sans";
-  color: #1B073D;
+  color: #1b073d;
 }
 .portfolio-modal .infoline {
   margin-bottom: 150px;
@@ -837,7 +837,7 @@ aside.cta-quote .panel {
   margin: auto 0 !important;
   top: -30px;
   bottom: 0;
-  background-color: #BA4C3D !important;
+  background-color: #ba4c3d !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -883,7 +883,7 @@ aside.cta-quote .panel {
   width: 260px;
   text-align: left;
   font-size: 20px;
-  color: white;
+  color: #ffffff;
   margin: 0;
   float: left;
 }
@@ -893,27 +893,27 @@ aside.cta-quote .panel {
   list-style: none;
   display: inline-block;
   margin-left: 15px;
-  color: #BA4C3D;
+  color: #ba4c3d;
 }
 .device-mockup .topics .topic .oneword.light li {
-  color: white;
+  color: #ffffff;
 }
 .device-mockup .topics .topic .oneword.dark li {
-  color: #1B073D;
+  color: #1b073d;
 }
 .device-mockup .topics .topic hr {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
-  border-color: #BA4C3D;
+  border-color: #ba4c3d;
   text-align: left;
 }
 .device-mockup .topics .topic .description {
   border-radius: 5px;
   padding: 10px;
   font-size: 17px;
-  background-color: #1B073D;
+  background-color: #1b073d;
   box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.3);
 }
 .device-mockup .topics.up {
@@ -1044,17 +1044,17 @@ aside.cta-quote .panel {
   font-weight: 900;
   letter-spacing: 1px;
   font-size: 12px;
-  color: #1B073D;
+  color: #1b073d;
   background: transparent;
-  border: 1px solid #1B073D;
+  border: 1px solid #1b073d;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
 .portfolio-filter #filters li .filter.active {
-  background-color: #BA4C3D;
+  background-color: #ba4c3d;
   color: white;
-  border-color: #BA4C3D;
+  border-color: #ba4c3d;
 }
 .portfolio-wrapper .checkbox-modal {
   position: absolute;
@@ -1081,7 +1081,7 @@ aside.cta-quote .panel {
 #portfoliolist .mix .portfolio-wrapper {
   overflow: hidden;
   position: relative !important;
-  background: #1B073D;
+  background: #1b073d;
   cursor: pointer;
 }
 #portfoliolist .mix .portfolio-wrapper img {
@@ -1107,7 +1107,7 @@ aside.cta-quote .panel {
   transition: all 0.5s;
 }
 #portfoliolist .mix .portfolio-wrapper .caption .caption-bg {
-  background: #BA4C3D;
+  background: #ba4c3d;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1143,20 +1143,20 @@ aside.cta-quote .panel {
 #grid-panel {
   width: 90%;
   max-width: 920px;
-  border: 0.2vw solid #BA4C3D;
+  border: 0.2vw solid #ba4c3d;
   border-radius: 1vw;
   background-color: rgba(250, 216, 212, 0.6);
   margin: 2vw auto;
   overflow: hidden;
 }
 #grid-panel h2 {
-  background-color: #BA4C3D;
-  color: white;
+  background-color: #ba4c3d;
+  color: #ffffff;
   padding: 2vw 0vw;
 }
 #grid-panel h3 {
-  background-color: #BA4C3D;
-  color: white;
+  background-color: #ba4c3d;
+  color: #ffffff;
   padding: 1.5vw 0vw;
 }
 #grid-panel p {
@@ -1182,7 +1182,7 @@ aside.cta-quote .panel {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #1B073D;
+  background-color: #1b073d;
   opacity: 0.5;
 }
 .about-carousel .item .caption {
@@ -1232,7 +1232,7 @@ aside.cta-quote .panel {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #BA4C3D !important;
+  background-color: #ba4c3d !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -1329,21 +1329,21 @@ body.vintage .testimonials .owl-controls .owl-next {
   line-height: 55px !important;
 }
 .btn-outline-light {
-  color: white;
-  border: 1px solid white;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   background: transparent;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
 .btn-outline-light:hover {
-  color: #BA4C3D;
+  color: #ba4c3d;
   background: white;
   outline: none;
 }
 .btn-outline-dark {
-  color: #1B073D;
-  border: 1px solid #1B073D;
+  color: #1b073d;
+  border: 1px solid #1b073d;
   background: transparent;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -1351,8 +1351,8 @@ body.vintage .testimonials .owl-controls .owl-next {
 }
 .btn-outline-dark:hover {
   color: white;
-  background: #BA4C3D;
-  border-color: #BA4C3D;
+  background: #ba4c3d;
+  border-color: #ba4c3d;
   outline: none;
 }
 .btn {
@@ -1370,7 +1370,7 @@ body.vintage .testimonials .owl-controls .owl-next {
 .btn-full-width {
   border: 0;
   border-radius: 0;
-  background-color: #1B073D;
+  background-color: #1b073d;
   color: white;
   padding: 50px 0;
   font-size: 26px;
@@ -1379,7 +1379,7 @@ body.vintage .testimonials .owl-controls .owl-next {
   text-transform: none;
 }
 .btn-full-width:hover {
-  background-color: #BA4C3D;
+  background-color: #ba4c3d;
   color: white;
 }
 .btn-full-width:focus {
@@ -1393,7 +1393,7 @@ body.vintage .testimonials .owl-controls .owl-next {
   width: 75px;
   line-height: 70px;
   text-align: center;
-  border: 3px solid #1B073D;
+  border: 3px solid #1b073d;
   border-radius: 100%;
   font-size: 30px;
 }
@@ -1440,7 +1440,7 @@ body.vintage .testimonials .owl-controls .owl-next {
 }
 .pricing {
   color: white;
-  background-color: #1B073D;
+  background-color: #1b073d;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1450,7 +1450,7 @@ body.vintage .testimonials .owl-controls .owl-next {
 .pricing .pricing-item {
   text-align: center;
   background: white;
-  color: #1B073D;
+  color: #1b073d;
   padding: 30px;
   -webkit-box-shadow: 0px 0px 30px 5px rgba(27, 7, 61, 0.75);
   -moz-box-shadow: 0px 0px 30px 5px rgba(27, 7, 61, 0.75);
@@ -1554,7 +1554,7 @@ body.vintage .testimonials .owl-controls .owl-next {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #BA4C3D;
+  color: #ba4c3d;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #dbcaf9;
@@ -1570,5 +1570,5 @@ form .row:first-child .floating-label-form-group {
 }
 .glossar .panel .letter {
   font-size: 25px;
-  color: #1B073D;
+  color: #1b073d;
 }
