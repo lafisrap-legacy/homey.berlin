@@ -3,9 +3,9 @@
 # Config File for INVISIBLE UNIVERSITY flavour of VITALITY bootstrap theme
 #
 #--------------------------------------------------------------
-BaseURL = "https://mimaberlin.github.io/mima.ee/"
+BaseURL = "https://homeypages.github.io/homey.berlin/"
 LanguageCode = "de-DE"
-Title = "MiMa - Very Personal Websites"
+Title = "Homey Pages - Personal Websites"
 Theme = "hugo-university-theme"
 publishDir = "docs"
 
