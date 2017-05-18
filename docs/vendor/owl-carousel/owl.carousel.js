@@ -435,16 +435,8 @@ if (typeof Object.create !== "function") {
 
                 /////////////////////////////////////////////////////////////////////////////
                 // @lafisrap: Extension for Invisible University: Switching videos on and off
-                base.playVideo.call( this, base.currentItem );
+                playVideo.call( this );
                 ///////////////////////////////////////////////////////////////////////////////
-            });
-
-
-            ///////////////////////////////////////////////////////////////////////////
-            // @lafisrap: Restart with one
-            buttonsWrapper.on("gotostart", "div[class^=\"owl\"]", function (event, page) {
-                event.preventDefault();
-                base.goTo(page);
             });
 
             ///////////////////////////////////////////////////////////////////////////
@@ -455,32 +447,27 @@ if (typeof Object.create !== "function") {
                 base.currentItem = parseInt( $(this).attr( "tid" ) );
                 base.goTo(base.currentItem);
 
-                base.playVideo.call( this, base.currentItem );
+                playVideo.call( this ); // not this, but the right context to find videos !!!
             });
+
+            var playVideo = function() {
+                var videos = $(this).parents( ".device-mockup" ).find( "video"),
+                    video = videos.parents( ".item"+base.currentItem ).find( "video" )[0];
+                
+                videos.each( function() {
+                    $( this ).get(0).pause();
+                });
+
+                console.log( "Stopping", videos.length, "videos.", video? " Starting 1.": "" );
+                if( video ) {
+                    var v = $( video ).get(0);
+
+                    v.currentTime = 0;
+                    v.play();
+                }                
+            }
             ////////////////////////////////////////////////////////////////////////////
         },
-
-        ///////////////////////////////////////////////////////////////////////////
-        // @lafisrap: Extension for Invisible University: Listening to topic menus
-        playVideo : function(item) {
-
-            var base = this,
-                videos = $(this).parents( ".device-mockup" ).find( "video"),
-                video = videos.parents( ".item"+item ).find( "video" )[0];
-            
-            videos.each( function() {
-                $( this ).get(0).pause();
-            });
-
-            console.log( "Stopping", videos.length, "videos.", video? " Starting 1.": "" );
-            if( video ) {
-                var v = $( video ).get(0);
-
-                v.currentTime = 0;
-                v.play();
-            }                
-        },
-        /////////////////////////////////////////////////////////////////////////////////
 
         buildPagination : function () {
             var base = this;
