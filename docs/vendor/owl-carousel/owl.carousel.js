@@ -439,6 +439,11 @@ if (typeof Object.create !== "function") {
                 ///////////////////////////////////////////////////////////////////////////////
             });
 
+            buttonsWrapper.on("gotostart", function (event, page) {
+                event.preventDefault();
+                base.goTo( page );
+            });
+
             ///////////////////////////////////////////////////////////////////////////
             // @lafisrap: Extension for Invisible University: Listening to topic menus
             var topicWrapper = $( ".topic[tid]" );

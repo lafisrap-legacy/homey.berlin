@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="description" content="Very Personal Websites">
 <meta name="author" content="Lafisrap (Michael Schmidt)">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.19-DEV" />
 
 <title>Homey Pages - Personal Websites</title>
 <!-- Favicon -->
@@ -221,11 +221,6 @@
 	    			      </div>
 	    			      
 		            </div>
-                <div class="row">
-                	<div class="col-xs-12">
-		                <a class="btn btn-outline-light page-scroll" href="#abilities2">Start Your Website ...</a>
-		                <a class="btn btn-outline-light page-scroll" href="#abilities">Some Examples ...</a>
-			            </div>
             </div>
         </div>
     </div>
@@ -2358,8 +2353,19 @@
 
     
 
+
 <style>
 
+	#about2.cta-quote div.quote, #about2.cta-quote div.quote p {
+		font-size: 24px !important;
+		line-height: 33px !important;
+  }
+
+
+
+	#about2.cta-quote .panel {
+		padding: 5.32px 13.32px !important;
+  }
 
 
 
@@ -2367,6 +2373,9 @@
 
 
 
+	#about2.cta-quote a.btn {
+		font-size: 14px !important;
+  }
 
 
 
@@ -2374,93 +2383,52 @@
 
 
 
+	#about2.cta-quote .transparent-border {
+		border-color: rgba( 0, 0, 0, 0.35);
+		background-color: rgba( 0, 0, 0, 0.3);
+	}
 
 
+@media(min-width:768px) {
+	
+		#about2.cta-quote .panel {
+			padding: 6px 15px !important;
+	  }
+	
+}
 
-
-
-
-
-
-
-
-
-
+@media(min-width:992px) {
+	
+		#about2.cta-quote .panel {
+			padding: 8px 20px !important;
+	  }
+	
+}
 
 </style>
-
-<section id="peers" class="bg-gray">
-    <div class="container text-center wow fadeIn">
+<aside id="about2" class="cta-quote" style="background-image: url('img/backgrounds/city.jpg');">
+    <div class="container">
         <div class="row">
-            <div class="title col-lg-12">
-                <h2>We</h2>
-                <p>...</p>
-                <hr class="colored">
-            </div>
-        </div>
-        <div class="row content-row">
-            <div class="col-lg-12">
-                <div class="about-carousel">
-                    
-                    
-                    
-                    
-                    <div class="item">
-                        <div class="overlay"></div>
-                        <img src="img/peers/maarja.jpg" class="img-responsive" alt="">
-                        <div class="caption">
-                            <h3>Maarja Urb</h3>
-                            <hr class="colored">
-                            <p>Foto- und Webkunst</p>
-                            <ul class="list-inline social">
-                                
-                                <li>
-                                    <a href="https://www.instagram.com/maarja_urb/?hl=en"><i class="fa fa-instagram fa-fw"></i></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="http://www.m-urb.de"><i class="fa fa-cloud fa-fw"></i></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100006824838702"><i class="fa fa-facebook fa-fw"></i></a>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="item">
-                        <div class="overlay"></div>
-                        <img src="img/peers/michael.jpg" class="img-responsive" alt="">
-                        <div class="caption">
-                            <h3>Michael Schmidt</h3>
-                            <hr class="colored">
-                            <p>Programmierung</p>
-                            <ul class="list-inline social">
-                                
-                                <li>
-                                    <a href="https://www.github.com/lafisrap"><i class="fa fa-github fa-fw"></i></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://michaelschmidt.berlin"><i class="fa fa-cloud fa-fw"></i></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://www.instagram.com/lafisrap"><i class="fa fa-instagram fa-fw"></i></a>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div>
+            <div class="panel transparent-border col-md-10 col-md-offset-1 wow fadeIn">
+                <div class="row" style="display: table;">
+                	
+									<div class="col-xs-12 col-md-3" style="height: 200px; vertical-align: bottom;">
+	              		<img src="img/maarja.jpg" class="img-responsive" height="200" width="200">
+	    			      </div>
+	                <div class="col-xs-12 col-md-6 quote">We offer websites that make it easy for everyone to present her|his ideas, or oneself.</p>
+
+<p>We enjoy it when people show what they can offer to others, and we believe that everyone can handle his|her own website, learn how to change it &hellip; with a little help.</p>
+
+<p>Our websites are meant for people who want to understand how it is built, and develop the courage to change it themselves, or to trust us &ndash; pass your photos and texts over to us and be courious what comes out of it.</div>
+	              	<div class="col-xs-12 col-md-3" style="height: 200px; vertical-align: bottom;">
+	              		<img src="img/michael.jpg" class="img-responsive" height="200" width="200">
+	    			      </div>
+	    			      
+		            </div>
             </div>
         </div>
     </div>
-</section>
+</aside>
 
 
     
@@ -2630,7 +2598,7 @@
         </div>
         <div class="row copyright">
             <div class="col-lg-12">
-                <p class="small">&copy; 2017 MaMi Berlin &copy; 2016 Start Bootstrap Themes, powered by Hugo 0.16-DEV.</p>
+                <p class="small">&copy; 2017 MaMi Berlin &copy; 2016 Start Bootstrap Themes, powered by Hugo 0.19-DEV.</p>
             </div>
         </div>
     </div>

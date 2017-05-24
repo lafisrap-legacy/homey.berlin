@@ -190,7 +190,6 @@ $( () => {
 	updateWeather();
 	setInterval( updateWeather, 1800000); // every 30 min
 
-debugger;
 	$( "footer #impressum" ).hide();
 	$( "footer .impressum" ).click(() => $( "footer #impressum" ).fadeToggle() );
 });

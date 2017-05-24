@@ -1,0 +1,36 @@
+# Change LESS Globals in file static/less/vitality.less for following items
+# @themeDark: 	Color of title and subtitle
+# @themePrimary: 	Color of double line and navigation button
+# @fontPrimary: Font of subtitle
+# @fontTitle: 	Font of title
+
+backgroundImage: img/backgrounds/city.jpg
+image: img/maarja.jpg
+image2: img/michael.jpg
+imagePos: both
+imageSize: 200
+text: >
+    We offer websites that make it easy for everyone to present her|his ideas, or oneself.
+
+
+    We enjoy it when people show what they can offer to others,
+    and we believe that everyone can handle his|her own website, learn how to change it ... with a little help.
+
+
+    Our websites are meant for people who want to understand how it is built, and develop the courage to change it themselves,
+    or to trust us -- pass your photos and texts over to us and be courious what comes out of it.
+action1: Start Your Website ...
+ref1: abilities2
+action2: Some Examples ...
+ref2: abilities
+
+# Additional Parameters
+
+textSize:     		24
+textPadding:			20
+# textColor: 				"yellow"
+# textColorPrimary: "#700D00"
+buttonSize:    		14
+# buttonColor: 			"white"
+# lineColor: 				"#700D00"
+opacity: 					0.3
