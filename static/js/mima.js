@@ -48,6 +48,8 @@ $( () => {
 	// Workaround: Restart Owl-Carousels once first video is loaded
 	$( "#abilities2 .owl-prev").trigger("gotostart", [1]);
 	$("#abilities2 .item_topic1 video").on('loadeddata', function() {
-		$( "#abilities2 .owl-prev").trigger("gotostart", [0])
+		setTimeout( function() {
+			$( "#abilities2 .owl-prev").trigger("gotostart", [0]);
+		} , 1000 );
 	});
 });
