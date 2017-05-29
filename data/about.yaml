@@ -4,20 +4,20 @@
 # @fontPrimary: Font of subtitle
 # @fontTitle: 	Font of title
 
-backgroundImage: img/backgrounds/city.jpg
-image: img/maarja.jpg
-image2: img/michael.jpg
+backgroundImage: img/backgrounds/wallcity3.jpg
+#image: img/maarja.jpg
+#image2: img/michael.jpg
 imagePos: both
-imageSize: 200
+imageSize: 150
 text: >
-    We offer websites that make it easy for everyone to present her|his ideas, or oneself.
+    We offer websites that make it easy for you to present your ideas, projects or youself.
 
 
     We enjoy it when people show what they can offer to others,
-    and we believe that everyone can handle his|her own website, learn how to change it ... with a little help.
+    and we believe that everyone can handle his/her own website, learn how to change it ... with a little help.
 
 
-    Our websites are meant for people who want to understand how it is built, and develop the courage to change it themselves,
+    Our websites fit for people who want to understand how it is built, and grow the courage to change it themselves,
     or to trust us -- pass your photos and texts over to us and be courious what comes out of it.
 action1: Start Your Website ...
 ref1: abilities2
@@ -26,11 +26,12 @@ ref2: abilities
 
 # Additional Parameters
 
-textSize:     		24
-textPadding:			20
+textSize:     		22
+# textPadding:			50
 # textColor: 				"yellow"
 # textColorPrimary: "#700D00"
 buttonSize:    		14
 # buttonColor: 			"white"
 # lineColor: 				"#700D00"
-opacity: 					0.3
+backgroundColor: 	132,110,135,0.5
+borderColor: 		132,110,135,0.5

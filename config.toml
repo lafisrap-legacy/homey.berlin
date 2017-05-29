@@ -26,11 +26,11 @@ publishDir = "docs"
 
 	# !Important: Theme colors can be selected in static/less/vitality.less
 
-	Name = "MiMa"
+	Name = "HomeyPages"
 	Description = "Very Personal Websites"
 	Favicon = "favicon.ico"
 	Author = "Lafisrap (Michael Schmidt)"
-	Brand = "MiMa --- Tallin - Berlin"
+	Brand = "Homey Pages --- Tallinn - Berlin"
 
 	# List of Google fonts, for use in less files.
 	#
@@ -45,6 +45,11 @@ publishDir = "docs"
 	Fonts = [
 		"IM+Fell+English+SC&amp;subset=latin-ext",
 		"Josefin+Sans:300,300i,400,400i,700,700i",
+		"Cabin+Condensed:400,500,600,700",
+		"Caveat:400,700",
+		"Kalam:300,400,700",
+		"Assistant:200,300,400,600,700,800",
+		"Cormorant+Upright:300,400,500,600,700|Expletus+Sans:400,400i,500,500i,600,600i,700,700i|Kalam:300,400,700|Zeyada",
 	]
 
 	# If you want to have your fonts local, you have to place them in static/fonts folder

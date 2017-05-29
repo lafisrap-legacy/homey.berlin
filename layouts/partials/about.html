@@ -46,10 +46,15 @@
   }
 {{ end }}
 
-{{ if .opacity }}
+{{ if .backgroundColor }}
 	aside.cta-quote .transparent-border {
-		border-color: rgba( 0, 0, 0, {{ add .opacity 0.05 }});
-		background-color: rgba( 0, 0, 0, {{ .opacity }});
+		background-color: rgba( {{ .backgroundColor }});
+	}
+{{ end }}
+
+{{ if .borderColor }}
+	aside.cta-quote .transparent-border {
+		border-color: rgba( {{ .borderColor }});
 	}
 {{ end }}
 
@@ -73,28 +78,15 @@
 <aside id="about" class="cta-quote" style="background-image: url('{{ .backgroundImage }}');">
     <div class="container">
         <div class="row">
-            <div class="panel transparent-border col-md-10 col-md-offset-1 wow fadeIn">
+            <div class="panel transparent-border col-md-8 col-md-offset-2 wow fadeIn">
                 <div class="row">
-                	{{ if eq .imagePos "left" }}
-	              	<div class="col-xs-12 col-sm-4" style="height: {{ .imageSize }}px">
-	              		<img src="{{ .image }}" class="img-responsive" height="{{ .imageSize }}" width="{{ .imageSize }}">
-	    			      </div>
+					<div class="col-xs-12 col-md-2" style="height: {{ .imageSize }}px">
+						<!-- Left side to fill -->
+   			        </div>
 	                <div class="col-xs-12 col-md-8 quote">{{ .text | markdownify }}</div>
-									{{ else if eq .imagePos "both" }}
-									<div class="col-xs-12 col-md-3" style="height: {{ .imageSize }}px">
-	              		<img src="{{ .image }}" class="img-responsive" height="{{ .imageSize }}" width="{{ .imageSize }}">
-	    			      </div>
-	                <div class="col-xs-12 col-md-6 quote">{{ .text | markdownify }}</div>
-	              	<div class="col-xs-12 col-md-3" style="height: {{ .imageSize }}px">
-	              		<img src="{{ .image2 }}" class="img-responsive" height="{{ .imageSize }}" width="{{ .imageSize }}">
-	    			      </div>
-	    			      {{ else }}
-	                <div class="col-xs-12 col-md-8 quote">{{ .text | markdownify }}</div>
-	              	<div class="col-xs-12 col-sm-4" style="height: {{ .imageSize }}px">
-	              		<img src="{{ .image }}" class="img-responsive" height="{{ .imageSize }}" width="{{ .imageSize }}">
-	    			      </div>
-	    			      {{ end }}
-		            </div>
+	              	<div class="col-xs-12 col-md-2" style="height: {{ .imageSize }}px">
+						<!-- Right side to fill -->
+	    			</div>
             </div>
         </div>
     </div>
