@@ -1041,8 +1041,9 @@ aside.cta-quote .panel {
   padding: 10px 15px;
   margin: 2px;
   text-transform: uppercase;
-  font-weight: 900;
   letter-spacing: 1px;
+  font-family: "Cormorant Upright";
+  font-weight: 700;
   font-size: 12px;
   color: #1B073D;
   background: transparent;
@@ -1524,6 +1525,7 @@ body.vintage .testimonials .owl-controls .owl-next {
   padding-left: 0;
   border: none;
   border-radius: 0;
+  font-family: "Cormorant Upright";
   font-size: 1.5em;
   background: none;
   box-shadow: none !important;
