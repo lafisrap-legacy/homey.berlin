@@ -216,6 +216,149 @@ elements:
     # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
     # panelColor:             white
 
+      - image: img/gallery/globe.jpg
+    imageId: 1017
+    captionTitle: Globe
+    captionCategory: ...
+    filters:
+      - Inhouse
+      - Objects
+
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/ice.jpg
+    imageId: 1018
+    captionTitle: Ice
+    captionCategory: ...
+    filters:
+      - Nature
+      - Water
+      - Winter
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/morning.jpg
+    imageId: 1019
+    captionTitle: Morning
+    captionCategory: ...
+    filters:
+      - Nature
+      - Trees
+      - Autumn
+      - Morning
+      - Time
+
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/pastel.jpg
+    imageId: 1020
+    captionTitle: Pastel
+    captionCategory: ...
+    filters:
+      - Nature
+      - Water
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/pink.jpg
+    imageId: 1021
+    captionTitle: Pink
+    captionCategory: ...
+    filters:
+      - Nature
+      - Flowers
+      - Spring
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/rain.jpg
+    imageId: 1022
+    captionTitle: Rain
+    captionCategory: ...
+    filters:
+      - Nature
+      - Water
+      - Drops
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/goldenclouds.jpg
+    imageId: 1023
+    captionTitle: Golden Clouds
+    captionCategory: ...
+    filters:
+      - Nature
+      - Sky
+      - Sunlight
+
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/goldenflight.jpg
+    imageId: 1024
+    captionTitle: Flight
+    captionCategory: ...
+    filters:
+      - Nature
+      - Sky
+      - Sunlight
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/blossom.jpg
+    imageId: 1025
+    captionTitle: Blossom
+    captionCategory: ...
+    filters:
+      - Nature
+      - Spring
+
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/bud.jpg
+    imageId: 1026
+    captionTitle: Bud
+    captionCategory: ...
+    filters:
+      - Nature
+      - Trees
+      - Time
+      - Spring
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/fragile.jpg
+    imageId: 1027
+    captionTitle: Fragile
+    captionCategory: ...
+    filters:
+      - Nature
+      - Evening
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+  - image: img/gallery/stairs.jpg
+    imageId: 1028
+    captionTitle: Stairs
+    captionCategory: ...
+    filters:
+      - Inhouse
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
+
+  - image: img/gallery/greece.jpg
+    imageId: 1029
+    captionTitle: Greece
+    captionCategory: ...
+    filters:
+      - Nature
+      - Sunlight
+      - Sky
+      - Water
+    # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+    # panelColor:             white
 
 # backgroundColor:        white
 # titleSize:              50

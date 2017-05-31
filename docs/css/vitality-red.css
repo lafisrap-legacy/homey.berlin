@@ -109,7 +109,7 @@ p {
   line-height: 1.5;
 }
 p.lead {
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 24px;
@@ -120,7 +120,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -212,7 +212,7 @@ hr.colored {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 24px;
@@ -332,7 +332,7 @@ header .intro-content {
   position: relative;
 }
 header .brand-name {
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -457,7 +457,7 @@ aside.cta-quote div.quote p {
   display: block;
 }
 aside.cta-quote a.btn {
-  font-family: "Caveat";
+  font-family: "Shadows Into Light";
   font-size: 18px;
 }
 aside.cta-quote hr {
@@ -537,7 +537,7 @@ aside.cta-quote .panel {
   display: inline-block;
 }
 .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .name {
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -621,7 +621,7 @@ aside.cta-quote .panel {
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 25px;
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 .portfolio-carousel .item .project-details .project-description,
@@ -785,7 +785,7 @@ aside.cta-quote .panel {
   color: darkgreen;
 }
 .portfolio-modal h2 {
-  font-family: "Caveat";
+  font-family: "Shadows Into Light";
 }
 .portfolio-modal h2.light {
   color: white;
@@ -842,7 +842,7 @@ aside.cta-quote .panel {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  font-family: "Caveat";
+  font-family: "Shadows Into Light";
 }
 .mockup-carousel .owl-controls .owl-prev:hover,
 .mockup-carousel .owl-controls .owl-next:hover {
@@ -1296,7 +1296,7 @@ body.modern p.lead,
 body.modern header .brand-name,
 body.modern .portfolio-carousel .project-name,
 body.modern .testimonials .testimonial-author .name {
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 body.modern .about-carousel .owl-controls .owl-prev,
@@ -1320,7 +1320,7 @@ body.vintage p.lead,
 body.vintage header .brand-name,
 body.vintage .portfolio-carousel .project-name,
 body.vintage .testimonials .testimonial-author .name {
-  font-family: "Caveat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Shadows Into Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 body.vintage .about-carousel .owl-controls .owl-prev,
